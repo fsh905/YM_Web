@@ -1298,8 +1298,10 @@ public class ProductExample {
             super();
         }
 
+        @Deprecated
         public Criteria andBigCategoryEquals(Integer bigCategory) {
-            addCriterion("category IN (SELECT id FROM category WHERE p_id = ?)", bigCategory, "bigCategory");
+            addCriterion("category IN (SELECT id FROM category WHERE p_id = ", bigCategory + " )", "bigCategory");
+
             return this;
         }
 

@@ -510,6 +510,10 @@
     let showList = function(items) {
       let listView = $('#product-show-list');
       listView.empty();
+      if (items == null){
+        listView.append('<h1>没有数据</h1>')
+        return;
+      }
       items.forEach(item => {
         listView.append(decorate(item));
       })

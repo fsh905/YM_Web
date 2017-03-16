@@ -2,6 +2,7 @@ package com.ym.er.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.sun.org.apache.regexp.internal.RE;
+import com.ym.er.mapper.CategoryMapper;
 import com.ym.er.mapper.FavorProductMapper;
 import com.ym.er.mapper.ProductImageMapper;
 import com.ym.er.mapper.ProductMapper;
@@ -25,12 +26,14 @@ public class ProductServiceImpl implements ProductService {
     private ProductMapper productMapper;
     private ProductImageMapper productImageMapper;
     private FavorProductMapper favorProductMapper;
+    private CategoryMapper categoryMapper;
 
     @Autowired
-    public ProductServiceImpl(ProductMapper productMapper, ProductImageMapper productImageMapper, FavorProductMapper favorProductMapper) {
+    public ProductServiceImpl(ProductMapper productMapper, ProductImageMapper productImageMapper, FavorProductMapper favorProductMapper, CategoryMapper categoryMapper) {
         this.productMapper = productMapper;
         this.productImageMapper = productImageMapper;
         this.favorProductMapper = favorProductMapper;
+        this.categoryMapper = categoryMapper;
     }
 
     /**
@@ -143,7 +146,10 @@ public class ProductServiceImpl implements ProductService {
 //        Optional.ofNullable(commentTimes)   // 暂时实现不了对评论数进行排序
         Optional.ofNullable(types).ifPresent(t -> criteria.andTypeIn(Arrays.asList(t)));
         if (category == null) {
-            Optional.ofNullable(bigCategory).ifPresent(criteria::andBigCategoryEquals);
+            Optional.ofNullable(bigCategory).ifPresent(b -> {
+                List<Integer> ids =  categoryMapper.selectIdByPId(bigCategory);
+                criteria.andCategoryIn(ids);
+            });
         }
         Optional.ofNullable(category).ifPresent(criteria::andCategoryEqualTo);
         Optional.ofNullable(keyword).ifPresent(ke -> criteria.addKeywordIs("%" + ke + "%"));

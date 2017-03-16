@@ -512,14 +512,18 @@
     },
     // 加载页面
     init = function () {
-      let data = window.location.href;
-      console.log('load data:' + data);
+      let data = window.location.href,
+        url = data;
       data = addKeyword(data);
       data = clearSort(data);
-      if (window.location.href != data)
+      if (url != data){
         window.location.href = data;
-      else
-        getSearchResult();
+      }
+      else {
+        console.log(window.location.hash.substring(1));
+        getSearchResult(window.location.hash.replace('#', ''));
+      }
+
     },
     getSearchResultByPage = function (page) {
       let url = window.location.href;
@@ -537,9 +541,9 @@
 
     let showPage = function(pageInfo) {
       let allCount = pageInfo.total,
-        allPages = pageInfo.pages;
-        nowPage = pageInfo.pageNum,
+        allPages = pageInfo.pages,
         pageListView = $('#page-list');
+      nowPage = pageInfo.pageNum;
       pageListView.empty();
       if (allPages < 5) {
         apendPages(1,allPages, nowPage);

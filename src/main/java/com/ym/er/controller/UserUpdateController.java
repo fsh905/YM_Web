@@ -3,6 +3,7 @@ package com.ym.er.controller;
 import com.ym.er.model.Result;
 import com.ym.er.model.School;
 import com.ym.er.model.User;
+import com.ym.er.service.MessageService;
 import com.ym.er.service.SchoolService;
 import com.ym.er.service.UserService;
 import com.ym.er.util.FileUtil;
@@ -26,13 +27,14 @@ public class UserUpdateController {
 
     private UserService userService;
     private SchoolService schoolService;
+    private MessageService messageService;
 
     @Autowired
-    UserUpdateController(UserService userService, SchoolService schoolService) {
+    public UserUpdateController(UserService userService, SchoolService schoolService, MessageService messageService) {
         this.userService = userService;
         this.schoolService = schoolService;
+        this.messageService = messageService;
     }
-
 
     @ModelAttribute
     public void getUser(@SessionAttribute(StatusUtil.USERIDKEY)int userId, Model model) {
@@ -42,10 +44,14 @@ public class UserUpdateController {
 
     // TODO: 3/10/2017 这里包含了闲置信息，暂时不完善
     @GetMapping("/index")
-    public ModelAndView userIndex(ModelAndView modelAndView) {
-
-        modelAndView.setViewName("user/index");
-        return modelAndView;
+    public String userIndex(@ModelAttribute("user") User user, Model model) {
+        Result<Integer> unreadMessageCountRes = messageService.countUnreadMessage(user.getUserId());
+        if (unreadMessageCountRes.getStatus() == 200) {
+            model.addAttribute("messageCount", unreadMessageCountRes.getData());
+        } else {
+            model.addAttribute("messageCount", 0);
+        }
+        return ("user/index");
     }
 
     @GetMapping("/favor")

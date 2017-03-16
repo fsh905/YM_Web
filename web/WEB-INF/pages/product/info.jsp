@@ -46,6 +46,13 @@
             height: 52px;
             border:none;
         }
+        .comment-date {
+            font-size: small;
+            margin: 7px;
+        }
+        .comment-main{
+            font-size: x-large;
+        }
     </style>
 
     <title>Realia | HTML Template</title>
@@ -319,31 +326,44 @@
                                 <div class="row">
                                     <ul class="span12">
                                         <li class="checked">
-                                            Air conditioning
+                                            <div class="comment-main">
+                                                <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
+                                                <span class="comment-content">这是内容</span>
+                                            </div>
+                                            <div class="comment-date">
+                                                2017-03-16 10:20:10
+                                            </div>
                                         </li>
                                         <li class="checked">
-                                            Balcony
+                                            <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
+                                            <span class="comment-content">这是内容</span>
                                         </li>
                                         <li class="checked">
-                                            Bedding
+                                            <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
+                                            <span class="comment-content">这是内容</span>
                                         </li>
                                         <li class="checked">
-                                            Cable TV
-                                        </li>
-                                        <li class="plain">
-                                            Cleaning after exit
-                                        </li>
-                                        <li class="plain">
-                                            Cofee pot
-                                        </li>
-                                        <li class="plain">
-                                            Computer
-                                        </li>
-                                        <li class="checked">
-                                            Cot
+                                            <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
+                                            <span class="comment-content">这是内容</span>
                                         </li>
                                     </ul>
+                                    <div class="comment-area">
+                                        <form method="post" id="send-comment-form">
+                                            <div class="control-group">
+                                                <label class="control-label" for="inputMessages">
+                                                    评论：
+                                                    <span class="form-required" title="This field is required.">*</span>
+                                                </label>
 
+                                                <div class="controls">
+                                                    <textarea id="inputMessages"></textarea>
+                                                </div><!-- /.controls -->
+                                            </div><!-- /.control-group -->
+                                            <div class="form-actions">
+                                                <input type="submit" class="btn btn-primary arrow-right" value="Send">
+                                            </div><!-- /.form-actions -->
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
 
@@ -802,8 +822,6 @@
             }
         })
       })
-
-
     })
 </script>
 </body>

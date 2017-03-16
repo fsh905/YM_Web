@@ -8,11 +8,13 @@ import com.ym.er.model.Result;
 import com.ym.er.service.CategoryService;
 import com.ym.er.service.ProductService;
 import javafx.scene.layout.Pane;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -79,8 +81,13 @@ public class ProductsController {
             @RequestParam(value = "endTime",required = false) Timestamp endTime,
             @RequestParam(value = "favor", required = false) Boolean favor,
             @RequestParam(value = "watchTimes", required = false) Boolean watchTimes,
-            @RequestParam(value = "page", required = false) Integer page
+            @RequestParam(value = "page", required = false) Integer page,
+            HttpServletRequest request
     ){
+        Logger logger = Logger.getLogger(this.getClass());
+        request.getParameterMap().forEach((k, v) -> {
+            logger.debug(k + "---" + v);
+        });
         if (page == null) {
             page = 1;
         }

@@ -435,63 +435,63 @@ public class ProductMessageExample {
             return (Criteria) this;
         }
 
-        public Criteria andTimeIsNull() {
-            addCriterion("time is null");
+        public Criteria andSendTimeIsNull() {
+            addCriterion("send_time is null");
             return (Criteria) this;
         }
 
-        public Criteria andTimeIsNotNull() {
-            addCriterion("time is not null");
+        public Criteria andSendTimeIsNotNull() {
+            addCriterion("send_time is not null");
             return (Criteria) this;
         }
 
-        public Criteria andTimeEqualTo(Date value) {
-            addCriterion("time =", value, "time");
+        public Criteria andSendTimeEqualTo(Date value) {
+            addCriterion("send_time =", value, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeNotEqualTo(Date value) {
-            addCriterion("time <>", value, "time");
+        public Criteria andSendTimeNotEqualTo(Date value) {
+            addCriterion("send_time <>", value, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeGreaterThan(Date value) {
-            addCriterion("time >", value, "time");
+        public Criteria andSendTimeGreaterThan(Date value) {
+            addCriterion("send_time >", value, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeGreaterThanOrEqualTo(Date value) {
-            addCriterion("time >=", value, "time");
+        public Criteria andSendTimeGreaterThanOrEqualTo(Date value) {
+            addCriterion("send_time >=", value, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeLessThan(Date value) {
-            addCriterion("time <", value, "time");
+        public Criteria andSendTimeLessThan(Date value) {
+            addCriterion("send_time <", value, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeLessThanOrEqualTo(Date value) {
-            addCriterion("time <=", value, "time");
+        public Criteria andSendTimeLessThanOrEqualTo(Date value) {
+            addCriterion("send_time <=", value, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeIn(List<Date> values) {
-            addCriterion("time in", values, "time");
+        public Criteria andSendTimeIn(List<Date> values) {
+            addCriterion("send_time in", values, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeNotIn(List<Date> values) {
-            addCriterion("time not in", values, "time");
+        public Criteria andSendTimeNotIn(List<Date> values) {
+            addCriterion("send_time not in", values, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeBetween(Date value1, Date value2) {
-            addCriterion("time between", value1, value2, "time");
+        public Criteria andSendTimeBetween(Date value1, Date value2) {
+            addCriterion("send_time between", value1, value2, "sendTime");
             return (Criteria) this;
         }
 
-        public Criteria andTimeNotBetween(Date value1, Date value2) {
-            addCriterion("time not between", value1, value2, "time");
+        public Criteria andSendTimeNotBetween(Date value1, Date value2) {
+            addCriterion("send_time not between", value1, value2, "sendTime");
             return (Criteria) this;
         }
 

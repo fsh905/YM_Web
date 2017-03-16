@@ -54,7 +54,7 @@ public class MessageServiceImpl implements MessageService {
     }
 
     @Override
-    public Result readMessages(int userId) {
+    public Result readMessagesByUserId(int userId) {
         MessageExample example = new MessageExample();
         example.createCriteria().andUserIdEqualTo(userId);
         Message message = new Message();

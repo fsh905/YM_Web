@@ -217,6 +217,7 @@
                                         <c:when test="${isSelf != 'NO'}">
                                             <%--登录--%>
                                             <li ><a href="/user/info">信息</a></li>
+                                            <li><a href="/user/messages">消息<span class="badge badge-info">${messageCount}</span></a></li>
                                             <li class="active"><a href="/user/index">闲置</a></li>
                                             <li><a href="/user/favor">点赞</a></li>
                                             <li><a href="/user/comment">评论</a></li>
@@ -486,7 +487,7 @@
 <script type="text/javascript" src="/assets/js/realia.js"></script>
 
 <script type="text/javascript">
-
+    let nowPage = 1;
     let requestData = function(data) {
       <c:if test="${isSelf == 'NO'}">
       if (data === undefined) {
@@ -513,9 +514,9 @@
     let showPage = function(pageInfo) {
       let allCount = pageInfo.total,
         allPages = pageInfo.pages,
-        nowPage = pageInfo.pageNum,
         pageListView = $('#page-list');
-      pageListView.empty();
+      nowPage = pageInfo.pageNum;
+        pageListView.empty();
       if (allPages < 5) {
         apendPages(1,allPages, nowPage);
       } else {
@@ -534,15 +535,19 @@
       let pageListView = $('#page-list');
       for (let i=start; i <= end; i++) {
         if (i === nowPage)
-          pageListView.append('<li><a href="void:javascript()" class="active">'+i+'</a></li>');
+          pageListView.append('<li  class="page-li active"><a href="void:javascript()">'+i+'</a></li>');
         else
-          pageListView.append('<li><a href="void:javascript()" data-page='+i+' class="pageChange">'+i+'</a></li>');
+          pageListView.append('<li class="page-li"><a href="void:javascript()" data-page='+i+' class="pageChange">'+i+'</a></li>');
       }
     }
 
     let showList = function(items) {
       let listView = $('#product-show-list');
       listView.empty();
+      if (items == null){
+        listView.append('<h1>没有数据</h1>');
+        return;
+      }
       items.forEach(item => {
         listView.append(decorate(item));
       })
@@ -637,8 +642,12 @@
         requestDataBySort();
       })
       $(document).on('click', '.pageChange', function() {
-        let page = $(this).attr('data-page');
-        requestDataBySort(page);
+        let self = $(this),
+          page = self.attr('data-page');
+        $('.page-li').removeClass('.active');
+        self.addClass('active');
+        if (nowPage != page)
+          requestDataBySort(page);
       })
 
     })

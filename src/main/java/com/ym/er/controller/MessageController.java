@@ -8,9 +8,7 @@ import com.ym.er.service.MessageService;
 import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.SessionAttribute;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,6 +17,7 @@ import java.util.List;
  *
  */
 @Controller
+@RequestMapping("/message")
 public class MessageController {
 
     private MessageService messageService;
@@ -28,6 +27,8 @@ public class MessageController {
         this.messageService = messageService;
     }
 
+    @PostMapping("/list")
+    @ResponseBody
     public Result<PageInfo> getMessages(@SessionAttribute(StatusUtil.USERIDKEY) int userId,
                                         @RequestParam(value = "page", required = false) Integer page) {
         if (page == null) {
@@ -35,11 +36,19 @@ public class MessageController {
         }
         PageHelper.startPage(page, 2);
         Result<List<Message>> messageList = messageService.selectMessageByUserId(userId);
+        // 查询的时候就认为已经把消息全部读取完毕
+        messageService.readMessagesByUserId(userId);
         if (messageList.getData() != null) {
             return Result.build(200, "获取成功", new PageInfo(messageList.getData()));
         } else {
             return Result.build(400, "没有数据");
         }
+    }
+
+    @PostMapping("/{msgId}/delete")
+    @ResponseBody
+    public Result deleteMsg(@SessionAttribute(StatusUtil.USERIDKEY) int id, @PathVariable int msgId) {
+        return messageService.deleteMessage(msgId);
     }
 
 }

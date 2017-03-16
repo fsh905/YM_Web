@@ -18,7 +18,7 @@ public interface MessageService {
 
     Result readMessage(int msgId);
 
-    Result readMessages(int userId);
+    Result readMessagesByUserId(int userId);
 
     Result readMessages(List<Integer> msgIds);
 

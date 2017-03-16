@@ -576,62 +576,62 @@ public class MessageExample {
         }
 
         public Criteria andReadIsNull() {
-            addCriterion("read is null");
+            addCriterion("`read` is null");
             return (Criteria) this;
         }
 
         public Criteria andReadIsNotNull() {
-            addCriterion("read is not null");
+            addCriterion("`read` is not null");
             return (Criteria) this;
         }
 
         public Criteria andReadEqualTo(Byte value) {
-            addCriterion("read =", value, "read");
+            addCriterion("`read` =", value, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadNotEqualTo(Byte value) {
-            addCriterion("read <>", value, "read");
+            addCriterion("`read` <>", value, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadGreaterThan(Byte value) {
-            addCriterion("read >", value, "read");
+            addCriterion("`read` >", value, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadGreaterThanOrEqualTo(Byte value) {
-            addCriterion("read >=", value, "read");
+            addCriterion("`read` >=", value, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadLessThan(Byte value) {
-            addCriterion("read <", value, "read");
+            addCriterion("`read` <", value, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadLessThanOrEqualTo(Byte value) {
-            addCriterion("read <=", value, "read");
+            addCriterion("`read` <=", value, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadIn(List<Byte> values) {
-            addCriterion("read in", values, "read");
+            addCriterion("`read` in", values, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadNotIn(List<Byte> values) {
-            addCriterion("read not in", values, "read");
+            addCriterion("`read` not in", values, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadBetween(Byte value1, Byte value2) {
-            addCriterion("read between", value1, value2, "read");
+            addCriterion("`read` between", value1, value2, "read");
             return (Criteria) this;
         }
 
         public Criteria andReadNotBetween(Byte value1, Byte value2) {
-            addCriterion("read not between", value1, value2, "read");
+            addCriterion("`read` not between", value1, value2, "read");
             return (Criteria) this;
         }
 
