@@ -74,4 +74,9 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("/")
+    public String indexRoot() {
+        return "index";
+    }
+
 }

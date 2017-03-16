@@ -2,10 +2,7 @@ package com.ym.er.controller;
 
 import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.ym.er.model.*;
-import com.ym.er.service.CategoryService;
-import com.ym.er.service.FavorProductService;
-import com.ym.er.service.ProductService;
-import com.ym.er.service.UserService;
+import com.ym.er.service.*;
 import com.ym.er.util.FileUtil;
 import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,13 +32,15 @@ public class ProductEditController {
     private CategoryService categoryService;
     private FavorProductService favorProductService;
     private UserService userService;
+    private ProductMessageService productMessageService;
 
     @Autowired
-    public ProductEditController(ProductService productService, CategoryService categoryService, FavorProductService favorProductService, UserService userService) {
+    public ProductEditController(ProductService productService, CategoryService categoryService, FavorProductService favorProductService, UserService userService, ProductMessageService productMessageService) {
         this.productService = productService;
         this.categoryService = categoryService;
         this.favorProductService = favorProductService;
         this.userService = userService;
+        this.productMessageService = productMessageService;
     }
 
     @ModelAttribute
@@ -72,13 +71,19 @@ public class ProductEditController {
         productService.updateWatchTimes(pId);
         if (session.getAttribute(StatusUtil.LOGINSTATUSKEY) != null) {
             //已经登录，查询点赞状态
-            int userId = (int) session.getAttribute(StatusUtil.USERIDKEY);
+            Integer userId = (int) session.getAttribute(StatusUtil.USERIDKEY);
             Result favorProduct = favorProductService.selectIsFavorProduct(userId, pId);
             if (favorProduct.getStatus() == 200) {
                 modelAndView.addObject("isFavored", "YES");
             } else {
                 modelAndView.addObject("isFavored", "NO");
             }
+            modelAndView.addObject("login",userId);
+        }
+        //提供评论信息
+        Result<List<ProductMessage>> msR = productMessageService.selectMessageByProductId(pId);
+        if (msR.getStatus() == 200) {
+            modelAndView.addObject("comments", msR.getData());
         }
         // 提供上架该商品的用户基本信息
         int userId = product.getUserId();

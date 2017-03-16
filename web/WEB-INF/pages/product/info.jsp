@@ -53,6 +53,9 @@
         .comment-main{
             font-size: x-large;
         }
+        textarea#inputMessages {
+            width: 100%;
+        }
     </style>
 
     <title>Realia | HTML Template</title>
@@ -310,59 +313,70 @@
                                             <button id="favor-btn" data-type="favor" style="background: url('/assets/img/button/heart_1.png') no-repeat"></button>
                                         </c:otherwise>
                                     </c:choose>
-
                                 </div>
-
                                 <p>
                                     ${product.description}
                                 </p>
                                     <c:if test="${product.status == 2}">
                                         <h1 style="color:red">此商品已下架</h1>
                                     </c:if>
-
-
                                 <h2>这里是评论</h2>
-
                                 <div class="row">
-                                    <ul class="span12">
-                                        <li class="checked">
+                                    <ul class="span12" id="comment-list">
+                                        <c:forEach items="${comments}" var="comment">
+                                        <li class="comment-id-${comment.productMsgId}">
                                             <div class="comment-main">
-                                                <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
-                                                <span class="comment-content">这是内容</span>
+                                                <span class="comment-sender">${comment.fromUserId}:</span>
+                                                <c:if test="${comment.toUserId != null}">
+                                                    <span class="comment-at">@${comment.toUserId}</span>
+                                                </c:if>
+                                                <span class="comment-content">${comment.content}</span>
                                             </div>
                                             <div class="comment-date">
-                                                2017-03-16 10:20:10
+                                                ${simpleDateFormat.format(comment.sendTime)}
                                             </div>
+                                            <c:if test="${login != null}">
+                                                <c:choose>
+                                                    <c:when test="${login == comment.fromUserId}">
+                                                        <button class="delete-comment" data-id="${comment.productMsgId}">删除</button>
+                                                    </c:when>
+                                                    <c:otherwise>
+                                                        <button class="answer-comment" data-id="${comment.productMsgId}">回复</button>
+                                                        <form class="answer-comment-form form-id-${comment.productMsgId}" method="post" style="display: none;" action="/comment/add">
+                                                            <input style="display: none;" name="productId" value="${product.productId}">
+                                                            <input style="display: none" name="toUserId" value="${comment.fromUserId}">
+                                                            <textarea name="content"></textarea>
+                                                            <button type="submit">提交</button>
+                                                        </form>
+                                                    </c:otherwise>
+                                                </c:choose>
+
+
+                                            </c:if>
                                         </li>
-                                        <li class="checked">
-                                            <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
-                                            <span class="comment-content">这是内容</span>
-                                        </li>
-                                        <li class="checked">
-                                            <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
-                                            <span class="comment-content">这是内容</span>
-                                        </li>
-                                        <li class="checked">
-                                            <span class="comment-sender">y****m:</span><span class="comment-at">@f**m</span>
-                                            <span class="comment-content">这是内容</span>
-                                        </li>
+                                        </c:forEach>
+
                                     </ul>
                                     <div class="comment-area">
-                                        <form method="post" id="send-comment-form">
-                                            <div class="control-group">
-                                                <label class="control-label" for="inputMessages">
-                                                    评论：
-                                                    <span class="form-required" title="This field is required.">*</span>
-                                                </label>
+                                        <c:if test="${login != null}">
+                                            <form method="post" action="/comment/add" id="send-comment-form">
+                                                <input name="productId" style="display: none;" value="${product.productId}">
+                                                <div class="control-group">
+                                                    <label class="control-label" for="inputMessages">
+                                                        评论：
+                                                        <span class="form-required" title="This field is required.">*</span>
+                                                    </label>
 
-                                                <div class="controls">
-                                                    <textarea id="inputMessages"></textarea>
-                                                </div><!-- /.controls -->
-                                            </div><!-- /.control-group -->
-                                            <div class="form-actions">
-                                                <input type="submit" class="btn btn-primary arrow-right" value="Send">
-                                            </div><!-- /.form-actions -->
-                                        </form>
+                                                    <div class="controls">
+                                                        <textarea id="inputMessages" name="content"></textarea>
+                                                    </div><!-- /.controls -->
+                                                </div><!-- /.control-group -->
+                                                <div class="form-actions">
+                                                    <input type="submit" class="btn btn-primary arrow-right" value="Send">
+                                                </div><!-- /.form-actions -->
+                                            </form>
+                                        </c:if>
+
                                     </div>
                                 </div>
                             </div>
@@ -822,6 +836,83 @@
             }
         })
       })
+
+      <c:if test="${login != null}">
+      //点击评论
+      $('#send-comment-form').submit(function (env) {
+        let data = new FormData(this);
+        sendData('/comment/add', data, function(res) {
+          if (res.status == 200) {
+            let comment = res.data;
+            appendComment(comment);
+          }
+        }, function (err) {
+          console.error(err);
+        })
+        env.preventDefault();
+        return false;
+      })
+      //点击删除
+      $('.delete-comment').on('click',function () {
+        let self = $(this),
+          id = self.attr('data-id');
+        sendData('/comment/'+id+'/delete',{},function(res){
+          if (res.status == 200) {
+            $('li.comment-id-'+id).remove();
+          }
+        },function (err) {
+          console.log(err);
+        })
+      })
+      //点击回复
+      $('.answer-comment').on('click',function () {
+        let self = $(this),
+          id = self.attr('data-id'),
+          form = $('.form-id-'+id);
+        if (form.css('display') === 'none') {
+          form.css({display: 'block'});
+        } else {
+          form.css({display: 'none'});
+        }
+
+
+      })
+      //发送回复
+      $('.answer-comment-form').submit(function (env) {
+        let self = $(this),
+          data = new FormData(this);
+        sendData('/comment/add', data, function (res) {
+          if (res.status == 200) {
+            let comment = res.data;
+            appendComment(comment);
+          }
+        }, function (err) {
+          console.error(err);
+        })
+        env.preventDefault();
+        return false;
+      })
+
+      let sendData = function(url, data, success, failed) {
+        return $.ajax({
+          url: url,
+          type: "POST",
+          data: data,
+          processData: false,
+          contentType: false,
+          success: function (res) {
+            success(res);
+          },
+          error: function (err) {
+            failed(err);
+          }
+        })
+      },
+      appendComment = function(com) {
+        location.href = location.href;
+      }
+      </c:if>
+
     })
 </script>
 </body>

@@ -78,6 +78,7 @@ public class MessageServiceImpl implements MessageService {
     @Override
     public Result<List<Message>> selectMessageByUserId(int userId) {
         MessageExample example = new MessageExample();
+        example.setOrderByClause("time DESC");
         example.createCriteria().andUserIdEqualTo(userId).andStatusEqualTo(StatusUtil.EXIST);
         List<Message> messages = messageMapper.selectByExample(example);
         return Result.build(200, "获取成功", messages);
