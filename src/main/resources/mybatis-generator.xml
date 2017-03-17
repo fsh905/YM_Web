@@ -40,7 +40,7 @@
         </javaClientGenerator>
 
         <!-- !!!! Table Configurations !!!! -->
-        <table tableName="product_message" enableSelectByExample="true"/>
+        <table tableName="product" enableSelectByExample="true"/>
 <!--        <table tableName="message"/>
         <table tableName="product"/>
         <table tableName="product_image"/>

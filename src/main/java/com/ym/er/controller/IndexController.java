@@ -4,11 +4,15 @@ import com.github.pagehelper.PageHelper;
 import com.ym.er.model.Category;
 import com.ym.er.model.Product;
 import com.ym.er.model.Result;
+import com.ym.er.model.School;
 import com.ym.er.service.CategoryService;
 import com.ym.er.service.ProductService;
+import com.ym.er.service.SchoolService;
+import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,13 +28,14 @@ public class IndexController {
 
     private CategoryService categoryService;
     private ProductService productService;
+    private SchoolService schoolService;
 
     @Autowired
-    public IndexController(CategoryService categoryService, ProductService productService) {
+    public IndexController(CategoryService categoryService, ProductService productService, SchoolService schoolService) {
         this.categoryService = categoryService;
         this.productService = productService;
+        this.schoolService = schoolService;
     }
-
 
     @ModelAttribute("cate")
     public void productCategory(Model model) {
@@ -40,23 +45,34 @@ public class IndexController {
     }
 
     @ModelAttribute("products")
-    public void indexProductShow(Model model) {
+    public void indexProductShow(Model model, @CookieValue(value = StatusUtil.SCHOOLIDKEY,required = false) Integer schoolId) {
+
+        if (schoolId == null) {
+            Integer schoolId1 = schoolId;
+            schoolId1 = 1;
+            model.addAttribute("setSchool", "YES");
+            Result<List<School>> listResult = schoolService.selectAllSchool();
+            if (listResult.getStatus() == 200) {
+                model.addAttribute("schools", listResult.getData());
+            }
+        }
+
         PageHelper.startPage(1,3);
         Result<List<Product>> watchRes = productService.selectProductByMultiChoice(null,null,
                 null,null,null,null,
-                null,null,null,true,null);
+                null,null,null,true,null, schoolId);
         PageHelper.startPage(1,6);
         Result<List<Product>> newRes = productService.selectProductByMultiChoice(null,null,
                 null,null,null,null,
-                null,null,null,null,null);
+                null,null,null,null,null, schoolId);
         PageHelper.startPage(1,6);
         Result<List<Product>> favorRes = productService.selectProductByMultiChoice(null,null,
                 null,null,null,null,
-                null,null,true,null,null);
+                null,null,true,null,null, schoolId);
         PageHelper.startPage(1,6);
         Result<List<Product>> commentRes = productService.selectProductByMultiChoice(null,null,
                 null,null,null,null,
-                null,null,null,null,true);
+                null,null,null,null,true, schoolId);
         model.addAttribute("watchProducts", watchRes.getData());
         model.addAttribute("newProducts", newRes.getData());
         model.addAttribute("favorProducts", favorRes.getData());

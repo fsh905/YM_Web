@@ -57,9 +57,10 @@ public class ProductShowController {
 
     @RequestMapping(value = "/publish", method = RequestMethod.POST)
     @ResponseBody
-    public Result<Product> addNewProduct(@SessionAttribute("userId")int userId, Product product, @RequestParam("addImages")MultipartFile files[]) {
+    public Result<Product> addNewProduct(@SessionAttribute(StatusUtil.USERIDKEY)int userId, @SessionAttribute(StatusUtil.SCHOOLIDKEY) int schoolId, Product product, @RequestParam("addImages")MultipartFile files[]) {
         //save product get productId
         product.setUserId(userId);
+        product.setSchoolId(schoolId);
         Result<Product> productResult = productService.insertProduct(product);
         if (productResult.getStatus() == 200) {
             int productId = productResult.getData().getProductId();

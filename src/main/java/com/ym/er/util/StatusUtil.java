@@ -20,6 +20,7 @@ public class StatusUtil {
     public static final String LOGINSTATUSVALUE = "LOGIN";
     public static final String LOGINSTATUSKEY = "LOGIN";
     public static final String USERIDKEY = "USERID";
+    public static final String SCHOOLIDKEY = "SCHOOLID";
 
 
 }

@@ -72,15 +72,16 @@ public interface ProductService {
     Result<List<Product>> selectProductByMultiChoice(
             String keyword,
             Byte types[],
-                                                     Integer bigCategory,
-                                                     Integer category,
-                                                     Double lowPrice,
-                                                     Double highPrice,
-                                                     Timestamp startTime,
-                                                     Timestamp endTime,
-                                                     Boolean favor,
-                                                     Boolean watchTimes,
-                                                     Boolean commentTimes
+             Integer bigCategory,
+             Integer category,
+             Double lowPrice,
+             Double highPrice,
+             Timestamp startTime,
+             Timestamp endTime,
+             Boolean favor,
+             Boolean watchTimes,
+             Boolean commentTimes,
+            Integer schoolId
                                                      );   /**
      *
      * @param types 商品/闲置
@@ -102,7 +103,8 @@ public interface ProductService {
                                                      Timestamp endTime,
                                                      Boolean favor,
                                                      Boolean watchTimes,
-                                                     Boolean commentTimes
+                                                     Boolean commentTimes,
+                                                                     Integer schoolId
                                                      );
     /**
      *
@@ -125,7 +127,8 @@ public interface ProductService {
                                                      Timestamp endTime,
                                                      Boolean favor,
                                                      Boolean watchTimes,
-                                                     Boolean commentTimes);
+                                                     Boolean commentTimes,
+                                                                   Integer schoolId);
 
 
     Result<List<ProductImage>> insertProductImage(List<ProductImage> productImages);

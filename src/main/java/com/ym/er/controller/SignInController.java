@@ -39,7 +39,7 @@ public class SignInController {
         modelAndView.addObject("result", result);
         if (result.getStatus() == 200) {
             // login success
-            loginSuccess(session, response, result.getData().getUserId());
+            loginSuccess(session, response, result.getData().getUserId(), result.getData().getSchoolId());
             modelAndView.setView(new RedirectView("user/index"));
         }
         return modelAndView;
@@ -61,15 +61,17 @@ public class SignInController {
         modelAndView.addObject("result", result);
         if (result.getStatus() == 200) {
             // login success
-            loginSuccess(session, response, result.getData().getUserId());
+            loginSuccess(session, response, result.getData().getUserId(), result.getData().getSchoolId());
             modelAndView.setView(new RedirectView("user/index"));
         }
         return modelAndView;
     }
 
-    private void loginSuccess(HttpSession session, HttpServletResponse  response, int userId) {
+    private void loginSuccess(HttpSession session, HttpServletResponse  response, int userId, int schoolId) {
         session.setAttribute(StatusUtil.USERIDKEY, userId);
+        session.setAttribute(StatusUtil.SCHOOLIDKEY, schoolId);
         response.addCookie(new Cookie(StatusUtil.USERIDKEY, String.valueOf(userId)));
+        response.addCookie(new Cookie(StatusUtil.SCHOOLIDKEY, String.valueOf(schoolId)));
         session.setAttribute(StatusUtil.LOGINSTATUSKEY, StatusUtil.LOGINSTATUSVALUE);
     }
 

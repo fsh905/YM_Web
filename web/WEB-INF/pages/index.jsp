@@ -28,10 +28,48 @@
     input.price {
       width: 90%;
     }
+    div#setSchool {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: 999;
+      background: black;
+      opacity: 0.8;
+      text-align: center;
+    }
+    div#school_chzn {
+      top: 200px;
+      font-size: x-large;
+      background: black;
+    }
+    h3#setSchool-header {
+      position: relative;
+      top: 199px;
+      color: white;
+    }
+    button#checkSchool-btn {
+      display: inline-block;
+      position: relative;
+      top: 255px;
+      left: -126px;
+    }
   </style>
   <title>主页</title>
 </head>
 <body>
+<c:if test="${setSchool != null}">
+<div id="setSchool">
+  <div id="school-list">
+    <h3 id="setSchool-header">请选择你的学校：</h3>
+    <select id="school">
+      <c:forEach items="${schools}" var="school">
+        <option value="${school.schoolId}">${school.schoolName}</option>
+      </c:forEach>
+    </select>
+    <button id="checkSchool-btn" class="btn btn-primary">确定</button>
+  </div>
+</div>
+</c:if>
 <div id="wrapper-outer">
   <div id="wrapper">
     <div id="wrapper-inner">
@@ -554,10 +592,17 @@
 <script type="text/javascript" src="assets/libraries/iosslider/_src/jquery.iosslider.min.js"></script>
 <script type="text/javascript" src="assets/libraries/bootstrap-fileupload/bootstrap-fileupload.js"></script>
 <script type="text/javascript" src="assets/js/realia.js"></script>
-
+<c:if test="${setSchool != null}">
 <script type="text/javascript">
-
+  $('#checkSchool-btn').on('click', function () {
+    let id = $('#school').val(),
+      d = new Date();
+    d.setTime(d.getTime() + (30*24*60*60*1000));
+    let expires = "expires="+ d.toUTCString();
+    document.cookie = "SCHOOLID=" + id + ";" + expires + ";path=/";
+    $('#setSchool')[0].remove();
+  })
 </script>
-
+</c:if>
 </body>
 </html>

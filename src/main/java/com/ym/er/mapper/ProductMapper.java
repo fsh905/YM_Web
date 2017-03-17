@@ -94,6 +94,7 @@ public interface ProductMapper {
      */
     int updateByPrimaryKey(Product record);
 
+
     int updateWatchTimes(int productId);
 
     int updateFavorTimes(int productId);

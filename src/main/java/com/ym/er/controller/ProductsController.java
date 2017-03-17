@@ -7,6 +7,7 @@ import com.ym.er.model.Product;
 import com.ym.er.model.Result;
 import com.ym.er.service.CategoryService;
 import com.ym.er.service.ProductService;
+import com.ym.er.util.StatusUtil;
 import javafx.scene.layout.Pane;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -71,6 +72,7 @@ public class ProductsController {
     @PostMapping("/search")
     @ResponseBody
     public Result<PageInfo> keywordSearchList(
+            @CookieValue(StatusUtil.SCHOOLIDKEY) Integer schoolId,
             @RequestParam(value = "keyword", required = false) String keyword,
             @RequestParam(value = "type", required = false) Byte types[],
             @RequestParam(value = "bigCategory", required = false) Integer bigCategory,
@@ -92,7 +94,7 @@ public class ProductsController {
             page = 1;
         }
         PageHelper.startPage(page, pageShow);
-        Result<List<Product>> result = productService.selectProductByMultiChoice(keyword,types,bigCategory,category,lowPrice,highPrice,startTime,endTime,favor,watchTimes,null);
+        Result<List<Product>> result = productService.selectProductByMultiChoice(keyword,types,bigCategory,category,lowPrice,highPrice,startTime,endTime,favor,watchTimes,null, schoolId);
 
         return Result.build(200, "获取成功", new PageInfo(result.getData()));
     }

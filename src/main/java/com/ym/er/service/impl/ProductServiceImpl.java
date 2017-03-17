@@ -137,7 +137,8 @@ public class ProductServiceImpl implements ProductService {
             Timestamp endTime,
             Boolean favor,
             Boolean watchTimes,
-            Boolean commentTimes
+            Boolean commentTimes,
+            Integer schoolId
     ) {
         ProductExample example = new ProductExample();
         ProductExample.Criteria criteria = example.createCriteria();
@@ -167,8 +168,8 @@ public class ProductServiceImpl implements ProductService {
     public Result<List<Product>> selectProductByMultiChoiceAndSmallCategory(String keyword, Byte[] types, Integer category, Double lowPrice,
                                                                             Double highPrice, Timestamp startTime,
                                                                             Timestamp endTime, Boolean favor,
-                                                                            Boolean watchTimes, Boolean commentTimes) {
-        return selectProductByMultiChoice(keyword, types, null, category, lowPrice, highPrice, startTime, endTime, favor, watchTimes, commentTimes);
+                                                                            Boolean watchTimes, Boolean commentTimes,Integer schoolId) {
+        return selectProductByMultiChoice(keyword, types, null, category, lowPrice, highPrice, startTime, endTime, favor, watchTimes, commentTimes, schoolId);
 
     }
 
@@ -183,8 +184,10 @@ public class ProductServiceImpl implements ProductService {
             Timestamp endTime,
             Boolean favor,
             Boolean watchTimes,
-            Boolean commentTimes) {
-        return selectProductByMultiChoice(keyword, types, bigCategory, null, lowPrice, highPrice, startTime, endTime, favor, watchTimes, commentTimes);
+            Boolean commentTimes,
+            Integer schoolId
+    ) {
+        return selectProductByMultiChoice(keyword, types, bigCategory, null, lowPrice, highPrice, startTime, endTime, favor, watchTimes, commentTimes, schoolId);
     }
 
 
