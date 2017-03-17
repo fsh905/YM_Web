@@ -7,18 +7,6 @@
     <list default="true" id="8767b2ac-31ad-40c0-bb21-91c8ad4bb0f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/Product.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/../YM_Web/out/" />
     <ignored path="$PROJECT_DIR$/../YM_Web/target/" />
@@ -77,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignInController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SignInController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
               <caret line="74" column="85" lean-forward="true" selection-start-line="74" selection-start-column="85" selection-end-line="74" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YM_Web.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/YM_Web.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -102,6 +100,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
               <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -219,9 +227,9 @@
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -1089,7 +1097,7 @@
       <workItem from="1489642867860" duration="1383000" />
       <workItem from="1489646627299" duration="1103000" />
       <workItem from="1489649493941" duration="16164000" />
-      <workItem from="1489717482946" duration="3735000" />
+      <workItem from="1489717482946" duration="7148000" />
     </task>
     <task id="LOCAL-00001" summary="add some new function">
       <created>1489643939785</created>
@@ -1105,7 +1113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489664267126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="select school">
+      <created>1489722016690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489722016690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1135,7 +1150,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218896000" />
+    <option name="totallyTimeSpent" value="222309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1195,7 +1210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some new function" />
     <MESSAGE value="frontend finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend finished" />
+    <MESSAGE value="select school" />
+    <option name="LAST_COMMIT_MESSAGE" value="select school" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1219,6 +1235,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,6 +1251,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,13 +1268,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/test/java/com/ym/er/test/MessageInsertTest.java" />
-    <entry file="file://$PROJECT_DIR$/../YM_Web/YM_Web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis.xml" />
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/MessageExample.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1385,6 +1396,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,6 +1404,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="56" column="94" lean-forward="false" selection-start-line="56" selection-start-column="94" selection-end-line="56" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,6 +1412,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="141" column="19" lean-forward="false" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
+          <folding>
+            <element signature="e#2433#2434#0" expanded="false" />
+            <element signature="e#2468#2469#0" expanded="false" />
+            <element signature="e#3794#3795#0" expanded="false" />
+            <element signature="e#3827#3828#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1438,6 +1457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,6 +1465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,6 +1473,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="260" column="53" lean-forward="true" selection-start-line="260" selection-start-column="53" selection-end-line="260" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,6 +1489,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="845">
           <caret line="99" column="40" lean-forward="false" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,6 +1534,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="1366" column="9" lean-forward="false" selection-start-line="1366" selection-start-column="9" selection-end-line="1366" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1558,14 +1582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="43" column="78" lean-forward="true" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -1626,6 +1642,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/YM_Web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1645,7 +1677,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Detection</last-edited>
+          <last-edited>Spring (YM_Web)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1680,12 +1712,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>YM_Web</last-edited>
+          <last-edited>Web|YM_Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.31617647" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

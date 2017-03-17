@@ -48,8 +48,7 @@ public class IndexController {
     public void indexProductShow(Model model, @CookieValue(value = StatusUtil.SCHOOLIDKEY,required = false) Integer schoolId) {
 
         if (schoolId == null) {
-            Integer schoolId1 = schoolId;
-            schoolId1 = 1;
+            schoolId = 1;
             model.addAttribute("setSchool", "YES");
             Result<List<School>> listResult = schoolService.selectAllSchool();
             if (listResult.getStatus() == 200) {
