@@ -46,6 +46,7 @@ public class BackLoginController {
             SuperUser superUser = superUserResult.getData();
             session.setAttribute(StatusUtil.LOGINSUPERUSERKEY, superUser);
             session.setAttribute(StatusUtil.SUPERUSERIDKEY, superUser.getUserId());
+            session.setAttribute(StatusUtil.SCHOOLIDKEY, superUser.getSchoolId());
             return "redirect:main";
         } else {
             model.addAttribute("msg", "登录失败，请检查你的用户名密码");
@@ -59,6 +60,7 @@ public class BackLoginController {
         // 清除session
         session.removeAttribute(StatusUtil.SUPERUSERIDKEY);
         session.removeAttribute(StatusUtil.LOGINSUPERUSERKEY);
+        session.removeAttribute(StatusUtil.SCHOOLIDKEY);
         return "redirect:/backend/login";
     }
 

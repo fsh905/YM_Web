@@ -5,33 +5,366 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8767b2ac-31ad-40c0-bb21-91c8ad4bb0f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackMainController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SuperUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SuperUserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/managers.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/result.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/action_btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/dclogo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_back_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_account.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_order.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_uninstall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_edit_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_edit_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_exc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_exc_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_fork.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_picture_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/menu_cur.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/top_add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/vcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/bin/LitJSON.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/lib/commons-io-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/lib/json_simple-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/107.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/108.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/109.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/110.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/111.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/112.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/113.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/114.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/115.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/116.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/117.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/118.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/119.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/120.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/121.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/122.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/123.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/124.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/125.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/126.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/127.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/128.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/129.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/130.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/131.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/132.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/133.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/134.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/static.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/file-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/file-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/folder-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/folder-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/go-up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/align_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/align_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/align_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/select-files-en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/select-files-zh_CN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/flash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/media.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/rm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/default/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/default/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/qq/editor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageViewMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageViewMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerViewMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerViewMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductMessageView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductMessageViewExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShowExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManagerExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManagerView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManagerViewExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SuperUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SuperUserExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/addmanager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/css/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.autoTextarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/demo.aspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/file_manager_json.ashx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/upload_json.ashx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/JSON_2.0.4.asp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/UpLoad_Class.asp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/demo.asp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/file_manager_json.asp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/upload_json.asp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/auto-height.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/colorpicker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/custom-plugin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/custom-theme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/dynamic-load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/file-dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/file-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/filter-mode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/image-dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/multi-image-dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/multi-language.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/newline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/node.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/paste-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/qqstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/uploadbutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/url-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/word-count.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/demo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/file_manager_json.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/upload_json.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor-all-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/JSON.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/demo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/file_manager_json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/upload_json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/anchor/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/autoheight/autoheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/baidumap/baidumap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/baidumap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/baidumap/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/clearhtml/clearhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/code/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/code/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/code/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/emoticons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/filemanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/flash/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/insertfile/insertfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/lineheight/lineheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/link/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/map/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/media/media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/multiimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/pagebreak/pagebreak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/plainpaste/plainpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/preview/preview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/quickformat/quickformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/table/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/html/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/html/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/html/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/wordpaste/wordpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/qq/qq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/simple/simple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/products.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/about-us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/contact-us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/debug.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/grid-system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index-carousel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/list-your-property.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-grid-filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-rows-filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-rows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/our-agents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-boxed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-multiple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/registration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/shortcodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/userindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/userinfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/../YM_Web/out/" />
     <ignored path="$PROJECT_DIR$/../YM_Web/target/" />
@@ -79,46 +412,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BackSchoolController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackAdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackProductsController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,6 +422,7 @@
         <option value="mybatis-generator-config" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -183,12 +478,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageMapper.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageMapper.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductMessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductEditController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductMessageController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/MessageMapper.xml" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/MessageServiceImpl.java" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.java" />
@@ -204,7 +493,6 @@
         <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SuperUserService.java" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/MainController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.java" />
@@ -215,7 +503,6 @@
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html" />
@@ -229,11 +516,19 @@
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.jsp" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/managers.jsp" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.jsp" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/result.jsp" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.html" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShowExample.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/products.js" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
       </list>
     </option>
   </component>
@@ -427,32 +722,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -560,6 +829,10 @@
               <option name="myItemId" value="er" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -587,7 +860,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="er" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1206,7 +1509,7 @@
       <workItem from="1489646627299" duration="1103000" />
       <workItem from="1489649493941" duration="16164000" />
       <workItem from="1489717482946" duration="12853000" />
-      <workItem from="1489761923587" duration="16357000" />
+      <workItem from="1489761923587" duration="28745000" />
     </task>
     <task id="LOCAL-00001" summary="add some new function">
       <created>1489643939785</created>
@@ -1236,7 +1539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489731159372</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add backend">
+      <created>1489822482316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489822482316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1266,7 +1576,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244371000" />
+    <option name="totallyTimeSpent" value="256759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1279,7 +1589,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1302,10 +1611,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37083334" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38333333" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395274" sideWeight="0.48013246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395274" sideWeight="0.48013246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22771214" sideWeight="0.51986754" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1316,6 +1625,42 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074468" sideWeight="0.5043431" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074468" sideWeight="0.4956569" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32708332" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38333333" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395274" sideWeight="0.48013246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22771214" sideWeight="0.51986754" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1328,11 +1673,12 @@
     <MESSAGE value="frontend finished" />
     <MESSAGE value="select school" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="add backend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1341,66 +1687,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="96" column="184" lean-forward="false" selection-start-line="96" selection-start-column="184" selection-end-line="96" selection-end-column="184" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserUpdateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="74" column="85" lean-forward="false" selection-start-line="74" selection-start-column="85" selection-end-line="74" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#946#947#0" expanded="false" />
-            <element signature="e#992#993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/YM_Web.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1469,14 +1755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1570,22 +1848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1649,7 +1911,7 @@
         <state relative-caret-position="39">
           <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1725,14 +1987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1765,28 +2019,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <marker date="1489825420827" expanded="true" signature="4310:4343" ph="select count... product_show" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShowExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="1515" column="0" lean-forward="true" selection-start-line="1515" selection-start-column="0" selection-end-line="1515" selection-end-column="0" />
+          <folding>
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="620">
+          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="88" lean-forward="false" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="49" column="55" lean-forward="true" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="68" column="99" lean-forward="false" selection-start-line="68" selection-start-column="99" selection-end-line="68" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="745">
+          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#803#804#0" expanded="true" />
@@ -1795,10 +2160,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="79">
+          <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
