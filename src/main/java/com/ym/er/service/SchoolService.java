@@ -24,6 +24,8 @@ public interface SchoolService {
      */
     Result<List<School>> selectAllSchool();
 
+    Result<List<School>> selectSchoolByKeyword(String keyword);
+
     /**
      * 获取学校相关信息
      * @param school_id

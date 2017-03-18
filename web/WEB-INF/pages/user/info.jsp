@@ -205,6 +205,7 @@
                                     <div class="controls">
                                         <c:set var="simpleDateFormat" value='<%= new java.text.SimpleDateFormat("yyyy-MM-dd") %>'/>
 
+
                                         <input type="text" class="span6 uneditable-input" value="${simpleDateFormat.format(user.birthday)}">
                                         <c:set value="new java.util.Date()" var="date"/>
 

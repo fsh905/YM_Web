@@ -88,7 +88,7 @@
   <select id="selectAllSchool" resultMap="BaseResultMap">
     select
       <include refid="Base_Column_List"/>
-    from school;
+    from school
   </select>
 
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ym.er.model.SchoolExample" >

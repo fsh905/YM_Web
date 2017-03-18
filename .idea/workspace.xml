@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8767b2ac-31ad-40c0-bb21-91c8ad4bb0f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackMainController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SuperUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SuperUserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/managers.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/result.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/../YM_Web/out/" />
     <ignored path="$PROJECT_DIR$/../YM_Web/target/" />
@@ -55,62 +80,40 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ProductShowController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java">
+      <file leaf-file-name="BackSchoolController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="79">
+              <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignInController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java">
+      <file leaf-file-name="BackAdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="74" column="85" lean-forward="true" selection-start-line="74" selection-start-column="85" selection-end-line="74" selection-end-column="85" />
-              <folding />
+            <state relative-caret-position="314">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YM_Web.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/YM_Web.iml">
+      <file leaf-file-name="BackProductsController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15050">
-              <caret line="602" column="8" lean-forward="false" selection-start-line="602" selection-start-column="8" selection-end-line="602" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="325">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,19 +125,14 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="mybatis-generator-config" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>div class=&quot;im</find>
-      <find>yy</find>
-      <find>simpleDa</find>
-      <find>heart</find>
-      <find>favor</find>
       <find>userid</find>
       <find>简介</find>
       <find>button</find>
@@ -160,12 +158,18 @@
       <find>location</find>
       <find>refer</find>
       <find>insert</find>
+      <find>login</find>
+      <find>admins</find>
+      <find>all</find>
+      <find>baclend</find>
+      <find>simpleD</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;/assets</replace>
       <replace>byte</replace>
       <replace>/assets</replace>
       <replace>`read`</replace>
+      <replace>backend</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -179,37 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/PageResult.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-rows-filter.html" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/CategoryServiceimpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/CategoryController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/publish.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/PublicProductController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductsService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/Index.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserShowController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/FavorProductService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/FavorProductId.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/test/java/com/ym/er/test/MessageInsertTest.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/pom.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/YM_Web.iml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserUpdateController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/MessageExample.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/favorList.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/messages.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/index.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/products/list.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/CategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/MessageService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductMessageService.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageMapper.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageMapper.xml" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductMessageServiceImpl.java" />
@@ -218,10 +191,8 @@
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/MessageMapper.xml" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/MessageServiceImpl.java" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java" />
@@ -230,6 +201,39 @@
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" />
         <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SuperUserService.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SuperUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.html" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/managers.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/result.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
       </list>
     </option>
   </component>
@@ -319,6 +323,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -396,11 +401,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,6 +476,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -512,9 +591,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YM_Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="er" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -524,7 +632,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31617647" />
@@ -539,20 +647,20 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\YM_Web\web\WEB-INF\pages\user" />
-      <recent name="G:\YM_Web\web\WEB-INF\pages" />
-      <recent name="G:\YM_Web\src\main\resources" />
-      <recent name="G:\YM_Web\src\main\resources\mybatis" />
-      <recent name="G:\YM_Web\src\main\resources\spring" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ym.er.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\YM_Web\web\WEB-INF\pages" />
       <recent name="G:\YM_Web\web" />
       <recent name="G:\YM_Web\src\main\java\com\ym\er\mappers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ym.er.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\YM_Web\web\WEB-INF\pages\backend" />
+      <recent name="G:\YM_Web\web\WEB-INF\pages\user" />
+      <recent name="G:\YM_Web\web\WEB-INF\pages" />
+      <recent name="G:\YM_Web\src\main\resources" />
+      <recent name="G:\YM_Web\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -989,7 +1097,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="YM_Web:war exploded">
           <settings>
@@ -1097,7 +1205,8 @@
       <workItem from="1489642867860" duration="1383000" />
       <workItem from="1489646627299" duration="1103000" />
       <workItem from="1489649493941" duration="16164000" />
-      <workItem from="1489717482946" duration="7148000" />
+      <workItem from="1489717482946" duration="12853000" />
+      <workItem from="1489761923587" duration="16357000" />
     </task>
     <task id="LOCAL-00001" summary="add some new function">
       <created>1489643939785</created>
@@ -1120,7 +1229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489722016690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1489731159372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489731159372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1150,7 +1266,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222309000" />
+    <option name="totallyTimeSpent" value="244371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1174,6 +1290,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1188,17 +1305,16 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37083334" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21160042" sideWeight="0.48710167" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24704619" sideWeight="0.5128983" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395274" sideWeight="0.48013246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22771214" sideWeight="0.51986754" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1211,7 +1327,8 @@
     <MESSAGE value="add some new function" />
     <MESSAGE value="frontend finished" />
     <MESSAGE value="select school" />
-    <option name="LAST_COMMIT_MESSAGE" value="select school" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1224,368 +1341,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/PublicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/favorList.jsp" />
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/FavorProductId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="58" column="74" lean-forward="false" selection-start-line="58" selection-start-column="74" selection-end-line="58" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/FavorProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/assets/img/button/heart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/test/java/com/ym/er/test/MessageInsertTest.java" />
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis.xml" />
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/MessageExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15275">
-          <caret line="633" column="32" lean-forward="false" selection-start-line="633" selection-start-column="32" selection-end-line="633" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/favorList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12850">
-          <caret line="514" column="15" lean-forward="false" selection-start-line="514" selection-start-column="15" selection-end-line="514" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/messages.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11950">
-          <caret line="478" column="5" lean-forward="false" selection-start-line="478" selection-start-column="5" selection-end-line="478" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5125">
-          <caret line="205" column="120" lean-forward="false" selection-start-line="205" selection-start-column="120" selection-end-line="205" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="635" column="19" lean-forward="false" selection-start-line="635" selection-start-column="19" selection-end-line="635" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/products/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="522" column="0" lean-forward="false" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
-          <folding>
-            <marker date="1489628730018" expanded="true" signature="4007:4013" ph="SELECT FROM category" />
-            <marker date="1489628730018" expanded="true" signature="4007:4174" ph="SELECT * FRO... category" />
-            <marker date="1489628730018" expanded="true" signature="4106:4151" ph="SELECT p_id category" />
-            <marker date="1489628730018" expanded="true" signature="4106:4173" ph="SELECT p_id category" />
-            <marker date="1489628730018" expanded="true" signature="4267:4281" ph="SELECT id FR... " />
-            <marker date="1489628730018" expanded="true" signature="4267:4326" ph="SELECT id FR... category" />
-            <marker date="1489628730018" expanded="true" signature="4570:4674" ph="select from category" />
-            <marker date="1489628730018" expanded="true" signature="4891:4949" ph="delete from " />
-            <marker date="1489628730018" expanded="true" signature="5177:5197" ph="delete from " />
-            <marker date="1489628730018" expanded="true" signature="5502:5640" ph="insert into category... " />
-            <marker date="1489628730018" expanded="true" signature="6675:6704" ph="select count... category" />
-            <marker date="1489628730018" expanded="true" signature="7635:7784" ph="update categ... " />
-            <marker date="1489628730018" expanded="true" signature="8120:8363" ph="update categ... " />
-            <marker date="1489628730018" expanded="true" signature="8587:8718" ph="update categ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="61" column="44" lean-forward="false" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="90" column="4" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
-          <folding>
-            <marker date="1489634118535" expanded="true" signature="4763:4896" ph="select from product_message" />
-            <marker date="1489634118535" expanded="true" signature="4999:5062" ph="SELECT produ... product_message" />
-            <marker date="1489634118535" expanded="true" signature="4999:5104" ph="SELECT produ... product_message" />
-            <marker date="1489634118535" expanded="true" signature="5321:5408" ph="delete from " />
-            <marker date="1489634118535" expanded="true" signature="5641:5668" ph="delete from " />
-            <marker date="1489634118535" expanded="true" signature="5977:6463" ph="insert into product_message... " />
-            <marker date="1489634118535" expanded="true" signature="8612:8648" ph="select count... product_message" />
-            <marker date="1489634118535" expanded="true" signature="10392:10959" ph="update produ... " />
-            <marker date="1489634118535" expanded="true" signature="11299:12252" ph="update produ... " />
-            <marker date="1489634118535" expanded="true" signature="12481:12981" ph="update produ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductMessageExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductMessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductMessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="56" column="94" lean-forward="false" selection-start-line="56" selection-start-column="94" selection-end-line="56" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="141" column="19" lean-forward="false" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
-          <folding>
-            <element signature="e#2433#2434#0" expanded="false" />
-            <element signature="e#2468#2469#0" expanded="false" />
-            <element signature="e#3794#3795#0" expanded="false" />
-            <element signature="e#3827#3828#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/MessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/MessageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="152" column="113" lean-forward="false" selection-start-line="152" selection-start-column="113" selection-end-line="152" selection-end-column="113" />
-          <folding>
-            <marker date="1489657340980" expanded="true" signature="4644:4754" ph="select from message" />
-            <marker date="1489657340980" expanded="true" signature="4970:5034" ph="delete from " />
-            <marker date="1489657340980" expanded="true" signature="5260:5279" ph="delete from " />
-            <marker date="1489657340980" expanded="true" signature="5581:6004" ph="insert into message... " />
-            <marker date="1489657340980" expanded="true" signature="8071:8099" ph="select count... message" />
-            <marker date="1489657340980" expanded="true" signature="9756:10261" ph="update messa... " />
-            <marker date="1489657340980" expanded="true" signature="10594:11467" ph="update messa... " />
-            <marker date="1489657340980" expanded="true" signature="11689:12127" ph="update messa... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="37" column="68" lean-forward="false" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/MessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="260" column="53" lean-forward="true" selection-start-line="260" selection-start-column="53" selection-end-line="260" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="99" column="40" lean-forward="false" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="466" column="46" lean-forward="true" selection-start-line="466" selection-start-column="46" selection-end-line="466" selection-end-column="46" />
-          <folding>
-            <marker date="1489670997562" expanded="true" signature="5365:5483" ph="select from product" />
-            <marker date="1489670997562" expanded="true" signature="5699:5771" ph="delete from " />
-            <marker date="1489670997562" expanded="true" signature="5997:6016" ph="delete from " />
-            <marker date="1489670997562" expanded="true" signature="6366:7171" ph="insert into product... " />
-            <marker date="1489670997562" expanded="true" signature="10505:10533" ph="select count... product" />
-            <marker date="1489670997562" expanded="true" signature="13118:14088" ph="update produ... " />
-            <marker date="1489670997562" expanded="true" signature="14421:16106" ph="update produ... " />
-            <marker date="1489670997562" expanded="true" signature="16328:17175" ph="update produ... " />
-            <marker date="1489670997562" expanded="true" signature="16415:17175" ph="update produ... " />
-            <marker date="1489670997562" expanded="true" signature="17121:17175" ph="update produ... " />
-            <marker date="1489670997562" expanded="true" signature="17250:17348" ph="UPDATE produ... " />
-            <marker date="1489670997562" expanded="true" signature="17423:17521" ph="UPDATE produ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductEditController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="80" column="51" lean-forward="true" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="1366" column="9" lean-forward="false" selection-start-line="1366" selection-start-column="9" selection-end-line="1366" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="143" column="25" lean-forward="false" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="130" column="83" lean-forward="false" selection-start-line="130" selection-start-column="83" selection-end-line="130" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SchoolController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#951#952#0" expanded="false" />
-            <element signature="e#1008#1009#0" expanded="false" />
-            <element signature="e#1372#1373#0" expanded="false" />
-            <element signature="e#1425#1426#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15050">
-          <caret line="602" column="8" lean-forward="false" selection-start-line="602" selection-start-column="8" selection-end-line="602" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1629,32 +1384,424 @@
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="74" column="85" lean-forward="true" selection-start-line="74" selection-start-column="85" selection-end-line="74" selection-end-column="85" />
-          <folding />
+        <state relative-caret-position="1425">
+          <caret line="74" column="85" lean-forward="false" selection-start-line="74" selection-start-column="85" selection-end-line="74" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#992#993#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/YM_Web.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        <state relative-caret-position="550">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="350">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3312#3313#0" expanded="false" />
+            <element signature="e#3350#3351#0" expanded="false" />
+            <element signature="e#3405#3406#0" expanded="false" />
+            <element signature="e#3435#3436#0" expanded="false" />
+            <element signature="e#3489#3490#0" expanded="false" />
+            <element signature="e#3519#3520#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SuperUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SuperUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <marker date="1489804109854" expanded="true" signature="3223:3344" ph="SELECT FROM super_user" />
+            <marker date="1489804109854" expanded="true" signature="3223:3364" ph="SELECT FROM super_user" />
+            <marker date="1489804109854" expanded="true" signature="3223:3398" ph="SELECT FROM super_user" />
+            <marker date="1489804109854" expanded="true" signature="3658:3689" ph="select count... super_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="87" column="93" lean-forward="false" selection-start-line="87" selection-start-column="93" selection-end-line="87" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="397" column="26" lean-forward="false" selection-start-line="397" selection-start-column="26" selection-end-line="397" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="1366" column="9" lean-forward="false" selection-start-line="1366" selection-start-column="9" selection-end-line="1366" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/.m2/repository/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackMainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+          <folding>
+            <marker date="1489809766316" expanded="true" signature="3489:3553" ph="select from school" />
+            <marker date="1489809766316" expanded="true" signature="4337:4452" ph="select from school" />
+            <marker date="1489809766316" expanded="true" signature="4669:4738" ph="delete from " />
+            <marker date="1489809766316" expanded="true" signature="4964:4982" ph="delete from " />
+            <marker date="1489809766316" expanded="true" signature="5285:5463" ph="insert into school... " />
+            <marker date="1489809766316" expanded="true" signature="6618:6645" ph="select count... school" />
+            <marker date="1489809766316" expanded="true" signature="7635:7824" ph="update schoo... " />
+            <marker date="1489809766316" expanded="true" signature="8158:8454" ph="update schoo... " />
+            <marker date="1489809766316" expanded="true" signature="8676:8847" ph="update schoo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/managers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

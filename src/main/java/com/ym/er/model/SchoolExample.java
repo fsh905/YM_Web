@@ -394,6 +394,11 @@ public class SchoolExample {
      */
     public static class Criteria extends GeneratedCriteria {
 
+        public Criteria andKeywordLike(String keyword) {
+            addCriterion("school_name like", keyword, "keyword");
+            return this;
+        }
+
         protected Criteria() {
             super();
         }

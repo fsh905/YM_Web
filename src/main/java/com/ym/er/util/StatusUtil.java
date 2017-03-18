@@ -19,8 +19,25 @@ public class StatusUtil {
 
     public static final String LOGINSTATUSVALUE = "LOGIN";
     public static final String LOGINSTATUSKEY = "LOGIN";
+    public static final String LOGINUSERKEY = "LOGINUSER";
+    public static final String LOGINSUPERUSERKEY = "LOGINSUPERUSER";
     public static final String USERIDKEY = "USERID";
+    public static final String SUPERUSERIDKEY = "SUPERUSERID";
     public static final String SCHOOLIDKEY = "SCHOOLID";
+
+    /**
+     * 超级管理员
+     */
+    public static final Integer ADMIN = 1;
+    /**
+     * 校区管理员
+     */
+    public static final Integer MANAGER = 2;
+    /**
+     * 普通用户
+     */
+    public static final Integer PRIMARY = 3;
+
 
 
 }

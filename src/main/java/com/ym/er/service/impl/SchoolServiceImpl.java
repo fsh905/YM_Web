@@ -3,6 +3,7 @@ package com.ym.er.service.impl;
 import com.ym.er.mapper.SchoolMapper;
 import com.ym.er.model.Result;
 import com.ym.er.model.School;
+import com.ym.er.model.SchoolExample;
 import com.ym.er.service.SchoolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,9 +28,18 @@ public class SchoolServiceImpl implements SchoolService{
     }
 
     @Override
+    public Result<List<School>> selectSchoolByKeyword(String keyword) {
+        SchoolExample example = new SchoolExample();
+        example.createCriteria().andKeywordLike("%"+keyword+"%");
+        List<School> all = schoolMapper.selectByExample(example);
+        return all == null ? Result.build(400, "没有数据") : Result.build(200, "获取成功", all);
+
+    }
+
+    @Override
     public Result<List<School>> selectAllSchool() {
         List<School> all = schoolMapper.selectAllSchool();
-        return Result.build(200, "获取成功", all);
+        return all == null ? Result.build(400, "没有数据") : Result.build(200, "获取成功", all);
     }
 
     @Override
@@ -41,10 +51,14 @@ public class SchoolServiceImpl implements SchoolService{
     public Result deleteSchool(int school_id) {
         int res = schoolMapper.deleteByPrimaryKey(school_id);
         return res == 1 ? Result.build(200, "删除成功") : Result.build(400, "删除失败");
+
     }
 
     @Override
     public Result<School> updateSchool(School school) {
-        return null;
+        SchoolExample example = new SchoolExample();
+        example.createCriteria().andSchoolIdEqualTo(school.getSchoolId());
+        int res = schoolMapper.updateByExampleSelective(school, example);
+        return res == 1 ? Result.build(200, "修改成功") : Result.build(400, "修改失败");
     }
 }
