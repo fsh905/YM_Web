@@ -2,6 +2,7 @@ package com.ym.er.back.controller;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.ym.er.auth.SuperManagerAuthPassport;
 import com.ym.er.model.Result;
 import com.ym.er.model.School;
 import com.ym.er.model.SuperUser;
@@ -34,6 +35,7 @@ public class BackSchoolController {
         this.superUserService = superUserService;
     }
 
+    @SuperManagerAuthPassport
     @RequestMapping("/schools")
     public ModelAndView selectSchool(@RequestParam(value = "page", required = false) Integer page,
                                      @RequestParam(value = "keyword", required = false) String keyword,
@@ -59,11 +61,13 @@ public class BackSchoolController {
         return modelAndView;
     }
 
+    @SuperManagerAuthPassport
     @GetMapping("/schools/add")
     public String addSchool() {
         return "backend/add_school";
     }
 
+    @SuperManagerAuthPassport
     @PostMapping("/schools/add")
     public String updateSchoolName(@RequestParam("schoolName") String schoolName, Model model) {
         School school = new School();
@@ -77,6 +81,7 @@ public class BackSchoolController {
         return "backend/result";
     }
 
+    @SuperManagerAuthPassport
     @GetMapping("/schools/{schoolId}/manager")
     public ModelAndView schoolManager(@PathVariable Integer schoolId,
                                       @RequestParam(value = "page", required = false) Integer page,
@@ -98,6 +103,7 @@ public class BackSchoolController {
         return modelAndView;
     }
 
+    @SuperManagerAuthPassport
     @GetMapping("/schools/{schoolId}/manager/add")
     public String addManagerPage(@PathVariable Integer schoolId, Model model) {
         Result<School> schoolResult = schoolService.selectSchoolById(schoolId);
@@ -105,6 +111,7 @@ public class BackSchoolController {
         return "backend/add_manager";
     }
 
+    @SuperManagerAuthPassport
     @GetMapping("/schools/{schoolId}/update")
     public String updateSchoolName(@PathVariable Integer schoolId, Model model) {
         Result<School> schoolResult = schoolService.selectSchoolById(schoolId);
@@ -113,6 +120,7 @@ public class BackSchoolController {
         return "backend/add_school";
     }
 
+    @SuperManagerAuthPassport
     @PostMapping("/schools/{schoolId}/update")
     public String updateSchoolName(@PathVariable Integer schoolId,@RequestParam("schoolName") String schoolName, Model model) {
         School school = new School();
@@ -128,6 +136,7 @@ public class BackSchoolController {
     }
 
 
+    @SuperManagerAuthPassport
     @GetMapping("/schools/{schoolId}/manager/{userId}/delete")
     public String deleteManager(@PathVariable("userId") Integer userId,
                              @PathVariable("schoolId") Integer schoolId,
@@ -141,6 +150,7 @@ public class BackSchoolController {
         return "backend/result";
     }
 
+    @SuperManagerAuthPassport
     @PostMapping("/schools/{schoolId}/manager/add")
     public String addManager(@PathVariable Integer schoolId,@RequestParam("userId")Integer userId,
                              Model model) {

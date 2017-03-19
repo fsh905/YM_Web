@@ -456,4 +456,27 @@
     WHERE ( user_id = #{userId,jdbcType=INTEGER} or name = #{name,jdbcType=VARCHAR} ) and password = PASSWORD(#{password, jdbcType=VARCHAR})
   </select>
 
+  <select id="countBySchoolIdInRecent7Day" parameterType="int" resultType="integer">
+    SELECT COUNT(1) FROM USER
+      WHERE
+      <![CDATA[ DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= DATE(regist_time) ]]>
+        and school_id = #{schoolId}
+  </select>
+
+  <select id="countBySchoolIdAllTime" resultType="int">
+    SELECT COUNT(1) FROM USER WHERE school_id = #{schoolId}
+  </select>
+  <select id="countInRecent7Day" resultType="integer">
+    SELECT COUNT(1) FROM USER
+
+    <where>
+      <![CDATA[ DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= DATE(regist_time) ]]>
+    </where>
+  </select>
+
+  <select id="countAllTime" resultType="integer">
+    SELECT COUNT(1) FROM USER
+
+  </select>
+
 </mapper>

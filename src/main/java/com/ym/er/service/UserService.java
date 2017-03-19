@@ -46,4 +46,11 @@ public interface UserService {
      */
     Result<User> selectUserById(int id);
 
+
+
+    Result<Integer> countBySchoolIn7Day(Integer schoolId);
+    Result<Integer> countBySchoolInAllTime(Integer schoolId);
+    Result<Integer> countAllIn7Day();
+    Result<Integer> countAllInAllTime();
+
 }

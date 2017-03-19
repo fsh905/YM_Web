@@ -3,6 +3,7 @@ package com.ym.er.service;
 import com.ym.er.model.ProductShow;
 import com.ym.er.model.Result;
 
+import javax.swing.*;
 import java.util.List;
 
 /**
@@ -21,5 +22,10 @@ public interface BackProductService {
 
 
     Result<List<ProductShow>> selectProductByFlag(String keyword, int flag, int schoolId);
+
+    Result<Integer> countBySchoolIn7Day(Integer schoolId, Byte status);
+    Result<Integer> countBySchoolInAllTime(Integer schoolId, Byte status);
+    Result<Integer> countAllIn7Day(Byte status);
+    Result<Integer> countAllInAllTime(Byte status);
 
 }

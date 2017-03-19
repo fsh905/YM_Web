@@ -1,5 +1,7 @@
 package com.ym.er.back.controller;
 
+import com.ym.er.auth.SchoolManagerAuthPassport;
+import com.ym.er.auth.SuperManagerAuthPassport;
 import com.ym.er.model.SuperUser;
 import com.ym.er.util.StatusUtil;
 import org.springframework.stereotype.Controller;
@@ -16,17 +18,23 @@ import org.springframework.web.bind.annotation.SessionAttribute;
 @RequestMapping("/backend")
 public class BackMainController {
 
-    @GetMapping("main")
+    @SchoolManagerAuthPassport
+    @SuperManagerAuthPassport
+    @GetMapping("/main")
     public String mainPage() {
         return "backend/main";
     }
 
-    @GetMapping("left")
+    @SuperManagerAuthPassport
+    @SchoolManagerAuthPassport
+    @GetMapping("/left")
     public String leftPage(@SessionAttribute(StatusUtil.LOGINSUPERUSERKEY)SuperUser superUser, Model model) {
         model.addAttribute("superUser", superUser);
         return "backend/left";
     }
 
+    @SuperManagerAuthPassport
+    @SchoolManagerAuthPassport
     @GetMapping("/top")
     public String topPage(@SessionAttribute(StatusUtil.LOGINSUPERUSERKEY)SuperUser superUser, Model model) {
         model.addAttribute("superUser", superUser);

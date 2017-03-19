@@ -98,4 +98,11 @@ public interface UserMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(User record);
+
+
+    int countBySchoolIdInRecent7Day(int schoolId);
+    int countInRecent7Day();
+
+    int countBySchoolIdAllTime(int schoolId);
+    int countAllTime();
 }

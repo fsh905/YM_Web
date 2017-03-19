@@ -1,8 +1,10 @@
 package com.ym.er.service.impl;
 
+import com.sun.org.apache.regexp.internal.RE;
 import com.ym.er.mapper.UserMapper;
 import com.ym.er.model.Result;
 import com.ym.er.model.User;
+import com.ym.er.model.UserExample;
 import com.ym.er.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -57,5 +59,30 @@ public class UserServiceImpl implements UserService{
     public Result<User> selectUserById(int id) {
         User user = userMapper.selectByPrimaryKey(id);
         return Result.build(200, "获取成功", user);
+    }
+
+    @Override
+    public Result<Integer> countBySchoolIn7Day(Integer schoolId) {
+        int res = userMapper.countBySchoolIdInRecent7Day(schoolId);
+        return Result.build(200, "查询成功", res);
+    }
+
+    @Override
+    public Result<Integer> countBySchoolInAllTime(Integer schoolId) {
+        int res = userMapper.countBySchoolIdAllTime(schoolId);
+        return Result.build(200, "查询成功", res);
+    }
+
+    @Override
+    public Result<Integer> countAllIn7Day() {
+        int res = userMapper.countInRecent7Day();
+        return Result.build(200, "查询成功", res);
+
+    }
+
+    @Override
+    public Result<Integer> countAllInAllTime() {
+        int res = userMapper.countAllTime();
+        return Result.build(200, "查询成功", res);
     }
 }

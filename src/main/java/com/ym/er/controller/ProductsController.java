@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.ym.er.model.Category;
 import com.ym.er.model.Product;
+import com.ym.er.model.ProductShow;
 import com.ym.er.model.Result;
 import com.ym.er.service.CategoryService;
 import com.ym.er.service.ProductService;
@@ -94,7 +95,7 @@ public class ProductsController {
             page = 1;
         }
         PageHelper.startPage(page, pageShow);
-        Result<List<Product>> result = productService.selectProductByMultiChoice(keyword,types,bigCategory,category,lowPrice,highPrice,startTime,endTime,favor,watchTimes,null, schoolId);
+        Result<List<ProductShow>> result = productService.selectProductShowByMultiChoice(keyword,types,bigCategory,category,lowPrice,highPrice,startTime,endTime,favor,watchTimes,null, schoolId);
 
         return Result.build(200, "获取成功", new PageInfo(result.getData()));
     }

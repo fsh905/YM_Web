@@ -1,10 +1,7 @@
 package com.ym.er.service;
 
 import com.sun.org.apache.regexp.internal.RE;
-import com.ym.er.model.Product;
-import com.ym.er.model.ProductExample;
-import com.ym.er.model.ProductImage;
-import com.ym.er.model.Result;
+import com.ym.er.model.*;
 
 import javax.xml.crypto.dom.DOMCryptoContext;
 import java.sql.Timestamp;
@@ -82,9 +79,11 @@ public interface ProductService {
              Boolean watchTimes,
              Boolean commentTimes,
             Integer schoolId
-                                                     );   /**
+                                                     );
+    /**
      *
      * @param types 商品/闲置
+     * @param bigCategory 大类 :
      * @param category 小类, 与大类不能共存
      * @param lowPrice 最低价
      * @param highPrice 最高价
@@ -95,40 +94,20 @@ public interface ProductService {
      * @param commentTimes 是否以评论次数进行排序
      * @return 结果
      */
-    Result<List<Product>> selectProductByMultiChoiceAndSmallCategory(String keyword, Byte types[],
-                                                     Integer category,
-                                                     Double lowPrice,
-                                                     Double highPrice,
-                                                     Timestamp startTime,
-                                                     Timestamp endTime,
-                                                     Boolean favor,
-                                                     Boolean watchTimes,
-                                                     Boolean commentTimes,
-                                                                     Integer schoolId
+    Result<List<ProductShow>> selectProductShowByMultiChoice(
+            String keyword,
+            Byte types[],
+             Integer bigCategory,
+             Integer category,
+             Double lowPrice,
+             Double highPrice,
+             Timestamp startTime,
+             Timestamp endTime,
+             Boolean favor,
+             Boolean watchTimes,
+             Boolean commentTimes,
+            Integer schoolId
                                                      );
-    /**
-     *
-     * @param types 商品/闲置
-     * @param bigCategory 大类 :
-     * @param lowPrice 最低价
-     * @param highPrice 最高价
-     * @param startTime 上架时间开始
-     * @param endTime 上架时间结束
-     * @param favor 是否点赞次数进行排序
-     * @param watchTimes 是否查看次数进行排序
-     * @param commentTimes 是否以评论次数进行排序
-     * @return 结果
-     */
-    Result<List<Product>> selectProductByMultiChoiceAndBigCategory(String keyword, Byte types[],
-                                                     Integer bigCategory,
-                                                     Double lowPrice,
-                                                     Double highPrice,
-                                                     Timestamp startTime,
-                                                     Timestamp endTime,
-                                                     Boolean favor,
-                                                     Boolean watchTimes,
-                                                     Boolean commentTimes,
-                                                                   Integer schoolId);
 
 
     Result<List<ProductImage>> insertProductImage(List<ProductImage> productImages);

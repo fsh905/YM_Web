@@ -74,128 +74,7 @@
   <div id="wrapper">
     <div id="wrapper-inner">
       <!-- BREADCRUMB -->
-      <div class="breadcrumb-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="span12">
-              <ul class="breadcrumb pull-left">
-                <li><a href="index.html">主页</a></li>
-              </ul><!-- /.breadcrumb -->
-
-              <div class="account pull-right">
-                <ul class="nav nav-pills">
-                  <li><a href="login.html">登陆</a></li>
-                  <li><a href="registration.html">注册</a></li>
-                </ul>
-              </div>
-            </div><!-- /.span12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.breadcrumb-wrapper -->
-
-      <!-- HEADER -->
-      <div id="header-wrapper">
-        <div id="header">
-          <div id="header-inner">
-            <div class="container">
-              <div class="navbar">
-                <div class="navbar-inner">
-                  <div class="row">
-                    <div class="logo-wrapper span4">
-                      <a href="#nav" class="hidden-desktop" id="btn-nav">Toggle navigation</a>
-
-                      <div class="logo">
-                        <a href="index.html" title="Home">
-                          <img src="assets/img/logo.png" alt="Home">
-                        </a>
-                      </div><!-- /.logo -->
-
-                      <div class="site-name">
-                        <a href="/" title="Home" class="brand">YMER</a>
-                      </div><!-- /.site-name -->
-
-                      <div class="site-slogan">
-                        <span>交换 &amp; 就是那么<br>简单</span>
-                      </div><!-- /.site-slogan -->
-                    </div><!-- /.logo-wrapper -->
-
-
-                    <a class="btn btn-primary btn-large list-your-property arrow-right" href="list-your-property.html">发布闲置</a>
-                  </div><!-- /.row -->
-                </div><!-- /.navbar-inner -->
-              </div><!-- /.navbar -->
-            </div><!-- /.container -->
-          </div><!-- /#header-inner -->
-        </div><!-- /#header -->
-      </div><!-- /#header-wrapper -->
-
-      <!-- NAVIGATION -->
-      <div id="navigation">
-        <div class="container">
-          <div class="navigation-wrapper">
-            <div class="navigation clearfix-normal">
-
-              <ul class="nav">
-                <li class="menuparent">
-                  <span class="menuparent nolink">主页</span>
-                  <ul>
-                    <li><a href="index-slider.html">Homepage with slider</a></li>
-                    <li><a href="index.html">Homepage with map</a></li>
-                    <li><a href="index-simple.html">Simple homepage</a></li>
-                    <li><a href="index-carousel.html">Homepage with carousel</a></li>
-                  </ul>
-                </li>
-                <li class="menuparent">
-                  <span class="menuparent nolink">Listing</span>
-                  <ul>
-                    <li><a href="listing-grid.html">Listing grid</a></li>
-                    <li><a href="listing-grid-filter.html">Listing grid with filter</a></li>
-                    <li><a href="listing-rows.html">Listing rows</a></li>
-                    <li><a href="listing-rows-filter.html">Listing rows with filter</a></li>
-                  </ul>
-                </li>
-                <li class="menuparent">
-                  <span class="menuparent nolink">Pages</span>
-                  <ul>
-                    <li><a href="about-us.html">About us</a></li>
-                    <li><a href="our-agents.html">Our agents</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="shortcodes.html">Shortcodes</a></li>
-                    <li class="menuparent">
-                      <span class="menuparent nolink">Another level</span>
-                      <ul>
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                        <li><a href="http://www.cssmoban.com">More theme</a></li>
-                        <li><a href="grid-system.html">Grid system</a></li>
-                        <li><a href="typography.html">Typography</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="404.html">404 page</a></li>
-                  </ul>
-                </li>
-                <li class="menuparent">
-                  <span class="menuparent nolink">Pricing</span>
-                  <ul>
-                    <li><a href="pricing-boxed.html">Boxed pricing</a></li>
-                    <li><a href="pricing-multiple.html">Multiple pricing</a></li>
-                    <li><a href="pricing-simple.html">Simple Pricing</a></li>
-                  </ul>
-                </li>
-                <li><a href="contact-us.html">提出建议</a></li>
-                <li><a href="info.html">个人中心</a></li>
-              </ul><!-- /.nav -->
-
-              <form method="get" class="site-search" action="/products/search">
-                <div class="input-append">
-                  <input title="输入你想找的物品" class="search-query span2 form-text" placeholder="搜索" type="text"
-                         name="keyword">
-                  <button type="submit" class="btn"><i class="icon-search"></i></button>
-                </div><!-- /.input-append -->
-              </form><!-- /.site-search -->
-            </div><!-- /.navigation -->
-          </div><!-- /.navigation-wrapper -->
-        </div><!-- /.container -->
-      </div><!-- /.navigation -->
+      <%@ include file="header.jsp"%>
 
       <!-- CONTENT -->
       <div id="content">
@@ -559,19 +438,7 @@
         </div><!-- /.bottom-wrapper -->    </div><!-- /#content -->
     </div><!-- /#wrapper-inner -->
 
-    <div id="footer-wrapper">
-
-
-      <div id="footer" class="footer container">
-        <div id="footer-inner">
-          <div class="row">
-            <div class="span6 copyright">
-              <p>© Copyright 2013 by YMER All rights reserved.</p>
-            </div><!-- /.copyright -->
-          </div><!-- /.row -->
-        </div><!-- /#footer-inner -->
-      </div><!-- /#footer -->
-    </div><!-- /#footer-wrapper -->
+    <%@ include file="footer.html"%>
   </div><!-- /#wrapper -->
 </div><!-- /#wrapper-outer -->
 
@@ -595,12 +462,16 @@
 <c:if test="${setSchool != null}">
 <script type="text/javascript">
   $('#checkSchool-btn').on('click', function () {
-    let id = $('#school').val(),
+    let sc = $('#school'),
+      id = sc.val(),
+      name = sc.text(),
       d = new Date();
     d.setTime(d.getTime() + (30*24*60*60*1000));
     let expires = "expires="+ d.toUTCString();
     document.cookie = "SCHOOLID=" + id + ";" + expires + ";path=/";
+    document.cookie = "SCHOOLKEY=" + name + ";" + expires + ";path=/";
     $('#setSchool')[0].remove();
+    window.location.replace(location.href);
   })
 </script>
 </c:if>

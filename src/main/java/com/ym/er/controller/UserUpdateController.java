@@ -36,16 +36,17 @@ public class UserUpdateController {
         this.messageService = messageService;
     }
 
-    @ModelAttribute
-    public void getUser(@SessionAttribute(StatusUtil.USERIDKEY)int userId, Model model) {
-//        System.out.println("---session---->"+userId);
-        model.addAttribute("user",userService.selectUserById(userId).getData());
-    }
+    /**
+     * 登陆后用户信息已经在session中存放，这里不用再次读取
+     */
+//    @ModelAttribute
+//    public void getUser(@SessionAttribute(StatusUtil.USERIDKEY)int userId, Model model) {
+//        model.addAttribute("user",userService.selectUserById(userId).getData());
+//    }
 
-    // TODO: 3/10/2017 这里包含了闲置信息，暂时不完善
     @GetMapping("/index")
-    public String userIndex(@ModelAttribute("user") User user, Model model) {
-        Result<Integer> unreadMessageCountRes = messageService.countUnreadMessage(user.getUserId());
+    public String userIndex(@SessionAttribute(StatusUtil.USERIDKEY) int userId, Model model) {
+        Result<Integer> unreadMessageCountRes = messageService.countUnreadMessage(userId);
         if (unreadMessageCountRes.getStatus() == 200) {
             model.addAttribute("messageCount", unreadMessageCountRes.getData());
         } else {
@@ -55,10 +56,8 @@ public class UserUpdateController {
     }
 
     @GetMapping("/favor")
-    public ModelAndView userFavor(ModelAndView modelAndView) {
-
-        modelAndView.setViewName("user/favorList");
-        return modelAndView;
+    public String userFavor() {
+       return "user/favorList";
     }
 
     @GetMapping("/messages")
@@ -66,14 +65,12 @@ public class UserUpdateController {
         return "user/messages";
     }
 
-
+    /**
+     * session中已经存放有school
+     */
     @RequestMapping("/info")
-    public ModelAndView getUserInfo(ModelAndView modelAndView, @ModelAttribute("user")User user) {
-        Result<School> schoolResult = schoolService.selectSchoolById(user.getSchoolId());
-        Optional.ofNullable(schoolResult.getData())
-                .ifPresent(school -> modelAndView.addObject("schoolName", school.getSchoolName()));
-        modelAndView.setViewName("user/info");
-        return modelAndView;
+    public String getUserInfo() {
+        return "user/info";
     }
 
 }

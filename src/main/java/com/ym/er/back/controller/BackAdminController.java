@@ -2,6 +2,7 @@ package com.ym.er.back.controller;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.ym.er.auth.SuperManagerAuthPassport;
 import com.ym.er.model.Result;
 import com.ym.er.model.SuperUser;
 import com.ym.er.service.SuperUserService;
@@ -30,6 +31,7 @@ public class BackAdminController {
         this.superUserService = superUserService;
     }
 
+    @SuperManagerAuthPassport
     @GetMapping("/admins")
     public ModelAndView getAdmins(@RequestParam(value = "page", required = false) Integer page, ModelAndView modelAndView) {
         if (page == null) {
@@ -48,6 +50,7 @@ public class BackAdminController {
         return modelAndView;
     }
 
+    @SuperManagerAuthPassport
     @GetMapping("/admins/{userId}/delete")
     public String deleteAdmins(@PathVariable Integer userId, Model model) {
         Result result = superUserService.deleteSuperUser(userId);
@@ -59,12 +62,14 @@ public class BackAdminController {
         return "backend/result";
     }
 
+    @SuperManagerAuthPassport
     @GetMapping("/admins/add")
     public String addAdmins(Model model) {
         model.addAttribute("method", "addAdmins");
         return "backend/add_manager";
     }
 
+    @SuperManagerAuthPassport
     @PostMapping("/admins/add")
     public String addAdmins(@RequestParam("userId") Integer userId, Model model) {
         Result result = superUserService.insertAdminUser(userId);

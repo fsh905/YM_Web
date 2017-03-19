@@ -55,9 +55,14 @@
         </property>
     </bean>
     <!--拦截器，用于判断权限-->
-<!--    <mvc:interceptors>
-        <bean class="com.ym.er.auth.AuthInterceptor"/>
-    </mvc:interceptors>-->
-    
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/backend/**"/>
+            <bean class="com.ym.er.auth.AuthInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+
 
 </beans>

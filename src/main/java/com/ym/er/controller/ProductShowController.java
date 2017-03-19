@@ -18,7 +18,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
 
+import javax.servlet.http.HttpSession;
 import java.lang.management.OperatingSystemMXBean;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +48,11 @@ public class ProductShowController {
     }
 
     @GetMapping("/publish")
-    public ModelAndView addNewProduct(ModelAndView modelAndView) {
+    public ModelAndView addNewProduct(ModelAndView modelAndView, HttpSession session) {
+        if (session.getAttribute(StatusUtil.LOGINSTATUSKEY) == null) {
+            modelAndView.setView(new RedirectView("/login"));
+            return modelAndView;
+        }
         // 带上种类
         List<Category> bigCate = categoryService.selectBigCategory();
         modelAndView.addObject("bigCategory", bigCate);

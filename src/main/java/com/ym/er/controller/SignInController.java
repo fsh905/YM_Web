@@ -1,7 +1,9 @@
 package com.ym.er.controller;
 
 import com.ym.er.model.Result;
+import com.ym.er.model.School;
 import com.ym.er.model.User;
+import com.ym.er.service.SchoolService;
 import com.ym.er.service.UserService;
 import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,8 @@ import org.springframework.web.servlet.view.RedirectView;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 /**
  * Created by YM on 3/13/2017.
@@ -24,11 +28,15 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class SignInController {
     private UserService userService;
+    private SchoolService schoolService;
 
     @Autowired
-    public SignInController(UserService userService) {
+    public SignInController(UserService userService, SchoolService schoolService) {
         this.userService = userService;
+        this.schoolService = schoolService;
     }
+
+
 
     @PostMapping(value = "/login")
     public ModelAndView login(@RequestParam("username")String userName, @RequestParam("password")String password,
@@ -39,7 +47,7 @@ public class SignInController {
         modelAndView.addObject("result", result);
         if (result.getStatus() == 200) {
             // login success
-            loginSuccess(session, response, result.getData().getUserId(), result.getData().getSchoolId());
+            loginSuccess(session, response, result.getData());
             modelAndView.setView(new RedirectView("user/index"));
         }
         return modelAndView;
@@ -61,18 +69,26 @@ public class SignInController {
         modelAndView.addObject("result", result);
         if (result.getStatus() == 200) {
             // login success
-            loginSuccess(session, response, result.getData().getUserId(), result.getData().getSchoolId());
+            loginSuccess(session, response, result.getData());
             modelAndView.setView(new RedirectView("user/index"));
         }
         return modelAndView;
     }
 
-    private void loginSuccess(HttpSession session, HttpServletResponse  response, int userId, int schoolId) {
-        session.setAttribute(StatusUtil.USERIDKEY, userId);
-        session.setAttribute(StatusUtil.SCHOOLIDKEY, schoolId);
-        response.addCookie(new Cookie(StatusUtil.USERIDKEY, String.valueOf(userId)));
-        response.addCookie(new Cookie(StatusUtil.SCHOOLIDKEY, String.valueOf(schoolId)));
+    private void loginSuccess(HttpSession session, HttpServletResponse  response, User user) {
+        School school = schoolService.selectSchoolById(user.getSchoolId()).getData();
+        session.setAttribute(StatusUtil.USERIDKEY, user.getUserId());
+        session.setAttribute(StatusUtil.SCHOOLKEY, school);
+        session.setAttribute(StatusUtil.SCHOOLIDKEY, user.getSchoolId());
+        response.addCookie(new Cookie(StatusUtil.USERIDKEY, String.valueOf(user.getUserId())));
+        response.addCookie(new Cookie(StatusUtil.SCHOOLIDKEY, String.valueOf(user.getSchoolId())));
+        try {
+            response.addCookie(new Cookie(StatusUtil.SCHOOLKEY, URLEncoder.encode(school.getSchoolName(), "UTF-8")));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         session.setAttribute(StatusUtil.LOGINSTATUSKEY, StatusUtil.LOGINSTATUSVALUE);
+        session.setAttribute(StatusUtil.LOGINUSERKEY, user);
     }
 
 }

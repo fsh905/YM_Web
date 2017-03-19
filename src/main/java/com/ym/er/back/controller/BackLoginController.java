@@ -1,5 +1,7 @@
 package com.ym.er.back.controller;
 
+import com.ym.er.auth.SchoolManagerAuthPassport;
+import com.ym.er.auth.SuperManagerAuthPassport;
 import com.ym.er.model.Result;
 import com.ym.er.model.SuperUser;
 import com.ym.er.service.SuperUserService;
@@ -12,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -38,15 +42,18 @@ public class BackLoginController {
     public String login(
             @RequestParam("userName") String userName,
             @RequestParam("password") String password,
+            HttpServletResponse response,
             HttpSession session,
             Model model) {
         // 把用户信息放到session中
         Result<SuperUser> superUserResult = superUserService.login(userName, password);
         if (superUserResult.getStatus() == 200) {
             SuperUser superUser = superUserResult.getData();
+            response.addCookie(new Cookie(StatusUtil.SCHOOLIDKEY, String.valueOf(superUser.getSchoolId())));
             session.setAttribute(StatusUtil.LOGINSUPERUSERKEY, superUser);
             session.setAttribute(StatusUtil.SUPERUSERIDKEY, superUser.getUserId());
             session.setAttribute(StatusUtil.SCHOOLIDKEY, superUser.getSchoolId());
+            session.setAttribute(StatusUtil.BACKENDROLE, superUser.getRoleId());
             return "redirect:main";
         } else {
             model.addAttribute("msg", "登录失败，请检查你的用户名密码");
@@ -55,6 +62,8 @@ public class BackLoginController {
 
     }
 
+    @SuperManagerAuthPassport
+    @SchoolManagerAuthPassport
     @GetMapping("/logout")
     public String logout(HttpSession session) {
         // 清除session

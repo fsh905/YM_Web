@@ -5,366 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8767b2ac-31ad-40c0-bb21-91c8ad4bb0f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/action_btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/dclogo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_back.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_back_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_account.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_order.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_cloud_uninstall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_edit_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_edit_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_exc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_exc_small.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_fork.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_picture_big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/icon_yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/menu_cur.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/top_add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/images/vcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/bin/LitJSON.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/lib/commons-io-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/lib/json_simple-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/100.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/101.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/102.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/103.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/104.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/105.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/106.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/107.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/108.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/109.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/110.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/111.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/112.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/113.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/114.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/115.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/116.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/117.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/118.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/119.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/120.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/121.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/122.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/123.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/124.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/125.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/126.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/127.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/128.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/129.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/130.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/131.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/132.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/133.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/134.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/92.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/93.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/94.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/95.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/96.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/97.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/98.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/99.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/images/static.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/file-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/file-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/folder-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/folder-64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/images/go-up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/align_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/align_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/align_top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/select-files-en.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/select-files-zh_CN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/images/swfupload.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/media.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/common/rm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/default/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/default/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/qq/editor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageViewMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMessageViewMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerViewMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolManagerViewMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductMessageView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductMessageViewExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShowExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManagerExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManagerView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolManagerViewExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SuperUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SuperUserExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/addmanager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_manager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.autoTextarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/demo.aspx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/file_manager_json.ashx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp.net/upload_json.ashx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/JSON_2.0.4.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/UpLoad_Class.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/demo.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/file_manager_json.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/asp/upload_json.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/auto-height.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/colorpicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/custom-plugin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/custom-theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/dynamic-load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/file-dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/file-manager.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/filter-mode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/image-dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/multi-image-dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/multi-language.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/newline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/node.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/paste-type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/qqstyle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/readonly.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/uploadbutton.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/url-type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/examples/word-count.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/demo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/file_manager_json.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/jsp/upload_json.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor-all-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/kindeditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/zh_CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/lang/zh_TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/JSON.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/file_manager_json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/php/upload_json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/anchor/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/autoheight/autoheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/baidumap/baidumap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/baidumap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/baidumap/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/clearhtml/clearhtml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/code/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/code/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/code/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/emoticons/emoticons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/filemanager/filemanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/flash/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/insertfile/insertfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/lineheight/lineheight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/link/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/map/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/media/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/multiimage/multiimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/pagebreak/pagebreak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/plainpaste/plainpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/preview/preview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/quickformat/quickformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/table/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/html/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/html/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/html/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/template/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/plugins/wordpaste/wordpaste.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/default/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/qq/qq.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/kindeditor/themes/simple/simple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/products.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/about-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/contact-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/debug.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/grid-system.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index-carousel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index-simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/list-your-property.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-grid-filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-rows-filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-rows.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/our-agents.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-boxed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-multiple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/registration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/shortcodes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/typography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/userindex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/userinfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminInfoController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackIndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackManagerInfoController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ErrorController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_manager.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/header.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/addmanager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/about-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/contact-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/debug.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/grid-system.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index-carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index-simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/list-your-property.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-grid-filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-rows-filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/listing-rows.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/our-agents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-boxed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-multiple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/pricing-simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/registration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/shortcodes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/typography.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/userindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/userinfo.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../YM_Web/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/auth/AuthInterceptor.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/auth/AuthInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackMainController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackMainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserUpdateController.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserUpdateController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShow.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/UserService.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" afterPath="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/publish.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/publish.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/products/list.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/products/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/result.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/favorList.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/favorList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/index.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/messages.jsp" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/messages.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../YM_Web/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../YM_Web/out/" />
     <ignored path="$PROJECT_DIR$/../YM_Web/target/" />
@@ -412,7 +134,108 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="favorList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/favorList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="144" column="43" lean-forward="false" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="142" column="43" lean-forward="false" selection-start-line="142" selection-start-column="43" selection-end-line="142" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/messages.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/products/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="178" column="39" lean-forward="false" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="399" column="43" lean-forward="false" selection-start-line="399" selection-start-column="43" selection-end-line="399" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publish.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/publish.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductEditController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductEditController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductShowController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -420,22 +243,19 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="mybatis-generator-config" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="Class" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>userid</find>
-      <find>简介</find>
       <find>button</find>
       <find>2</find>
       <find>orderBy</find>
       <find>date</find>
       <find>favor-btn</find>
-      <find>assets</find>
       <find>junit</find>
       <find>read</find>
       <find>8</find>
@@ -458,13 +278,16 @@
       <find>all</find>
       <find>baclend</find>
       <find>simpleD</find>
+      <find>y</find>
+      <find>decoder</find>
+      <find>assets</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;/assets</replace>
       <replace>byte</replace>
-      <replace>/assets</replace>
       <replace>`read`</replace>
       <replace>backend</replace>
+      <replace>/assets</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -478,57 +301,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SuperUserService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SuperUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.html" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/managers.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/result.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.html" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShowExample.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
-        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/products.js" />
         <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/html/404.html" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/auth/SuperManagerAuthPassport.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackInfoController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminInfoController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_admin.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackMainController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackIndexController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/auth/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackManagerInfoController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_manager.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShow.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/result.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/footer.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserUpdateController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/404.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ErrorController.java" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/footer.html" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/favorList.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/index.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/messages.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/products/list.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/publish.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/error.jsp" />
+        <option value="$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java" />
       </list>
     </option>
   </component>
@@ -618,8 +441,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -683,32 +504,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -829,70 +624,6 @@
               <option name="myItemId" value="er" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="er" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YM_Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="er" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -927,6 +658,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1400,7 +1133,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="update-resources" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="YM_Web:war exploded">
           <settings>
@@ -1509,7 +1242,8 @@
       <workItem from="1489646627299" duration="1103000" />
       <workItem from="1489649493941" duration="16164000" />
       <workItem from="1489717482946" duration="12853000" />
-      <workItem from="1489761923587" duration="28745000" />
+      <workItem from="1489761923587" duration="36892000" />
+      <workItem from="1489882835533" duration="22224000" />
     </task>
     <task id="LOCAL-00001" summary="add some new function">
       <created>1489643939785</created>
@@ -1546,7 +1280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489822482316</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update something">
+      <created>1489838477498</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1489838477498</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1576,7 +1317,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256759000" />
+    <option name="totallyTimeSpent" value="287130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1589,78 +1330,44 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074468" sideWeight="0.5043431" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074468" sideWeight="0.4956569" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32708332" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38333333" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395274" sideWeight="0.48013246" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22771214" sideWeight="0.51986754" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074468" sideWeight="0.5043431" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074468" sideWeight="0.4956569" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32708332" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32708332" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38333333" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395274" sideWeight="0.48013246" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22771214" sideWeight="0.51986754" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22717509" sideWeight="0.48013246" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22771214" sideWeight="0.51986754" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1674,11 +1381,22 @@
     <MESSAGE value="select school" />
     <MESSAGE value="update" />
     <MESSAGE value="add backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="add backend" />
+    <MESSAGE value="update something" />
+    <option name="LAST_COMMIT_MESSAGE" value="update something" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java</url>
+          <line>134</line>
+          <properties class="com.ym.er.service.impl.ProductServiceImpl" method="selectProductByMultiChoice">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1687,486 +1405,462 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../YM_Web/YM_Web.iml">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_manager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3312#3313#0" expanded="false" />
-            <element signature="e#3350#3351#0" expanded="false" />
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3435#3436#0" expanded="false" />
-            <element signature="e#3489#3490#0" expanded="false" />
-            <element signature="e#3519#3520#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="211">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.html">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="668">
+          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2287#2288#0" expanded="false" />
+            <element signature="e#2330#2331#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SuperUserService.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="1575">
+          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SuperUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
-            <element signature="e#2199#2200#0" expanded="true" />
-            <element signature="e#2266#2267#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SuperUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <marker date="1489804109854" expanded="true" signature="3223:3344" ph="SELECT FROM super_user" />
-            <marker date="1489804109854" expanded="true" signature="3223:3364" ph="SELECT FROM super_user" />
-            <marker date="1489804109854" expanded="true" signature="3223:3398" ph="SELECT FROM super_user" />
-            <marker date="1489804109854" expanded="true" signature="3658:3689" ph="select count... super_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="87" column="93" lean-forward="false" selection-start-line="87" selection-start-column="93" selection-end-line="87" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/SchoolExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="397" column="26" lean-forward="false" selection-start-line="397" selection-start-column="26" selection-end-line="397" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="1366" column="9" lean-forward="false" selection-start-line="1366" selection-start-column="9" selection-end-line="1366" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/.m2/repository/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/SchoolServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_school.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/SchoolService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackMainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/SchoolMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        <state relative-caret-position="475">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <marker date="1489809766316" expanded="true" signature="3489:3553" ph="select from school" />
-            <marker date="1489809766316" expanded="true" signature="4337:4452" ph="select from school" />
-            <marker date="1489809766316" expanded="true" signature="4669:4738" ph="delete from " />
-            <marker date="1489809766316" expanded="true" signature="4964:4982" ph="delete from " />
-            <marker date="1489809766316" expanded="true" signature="5285:5463" ph="insert into school... " />
-            <marker date="1489809766316" expanded="true" signature="6618:6645" ph="select count... school" />
-            <marker date="1489809766316" expanded="true" signature="7635:7824" ph="update schoo... " />
-            <marker date="1489809766316" expanded="true" signature="8158:8454" ph="update schoo... " />
-            <marker date="1489809766316" expanded="true" signature="8676:8847" ph="update schoo... " />
+            <element signature="imports" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/add_manager.jsp">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/auth/AuthInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        <state relative-caret-position="1050">
+          <caret line="50" column="51" lean-forward="false" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/managers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/admins.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        <state relative-caret-position="1675">
+          <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
           <folding>
-            <marker date="1489825420827" expanded="true" signature="4310:4343" ph="select count... product_show" />
+            <marker date="1489846159178" expanded="true" signature="4310:4343" ph="select count... product_show" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShowExample.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/ProductShowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="1515" column="0" lean-forward="true" selection-start-line="1515" selection-start-column="0" selection-end-line="1515" selection-end-column="0" />
-          <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="62" column="54" lean-forward="false" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="88" lean-forward="false" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
+        <state relative-caret-position="475">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackIndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="227">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.html">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackManagerInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="49" column="55" lean-forward="true" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+        <state relative-caret-position="95">
+          <caret line="33" column="64" lean-forward="false" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/BackProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/BackProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="68" column="99" lean-forward="false" selection-start-line="68" selection-start-column="99" selection-end-line="68" selection-end-column="99" />
+        <state relative-caret-position="25">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/schools.jsp">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="977">
-          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="334">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/js/products.js">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="462" column="35" lean-forward="true" selection-start-line="462" selection-start-column="35" selection-end-line="462" selection-end-column="35" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <marker date="1489889787312" expanded="true" signature="4757:4866" ph="select from user" />
+            <marker date="1489889787312" expanded="true" signature="5060:5123" ph="delete from " />
+            <marker date="1489889787312" expanded="true" signature="5248:5264" ph="delete from " />
+            <marker date="1489889787312" expanded="true" signature="5542:6242" ph="insert into user... " />
+            <marker date="1489889787312" expanded="true" signature="9301:9326" ph="select count... user" />
+            <marker date="1489889787312" expanded="true" signature="11575:12373" ph="update user " />
+            <marker date="1489889787312" expanded="true" signature="12682:14103" ph="update user " />
+            <marker date="1489889787312" expanded="true" signature="14300:14989" ph="update user " />
+            <marker date="1489889787312" expanded="true" signature="15075:15177" ph="update user " />
+            <marker date="1489889787312" expanded="true" signature="15280:15483" ph="SELECT FROM user" />
+            <marker date="1489889787312" expanded="true" signature="15586:15611" ph="SELECT COUNT... USER" />
+            <marker date="1489889787312" expanded="true" signature="15586:15736" ph="SELECT COUNT... USER" />
+            <marker date="1489889787312" expanded="true" signature="15586:15737" ph="SELECT COUNT... USER" />
+            <marker date="1489889787312" expanded="true" signature="15810:15865" ph="SELECT COUNT... USER" />
+            <marker date="1489889787312" expanded="true" signature="15937:15962" ph="SELECT COUNT... USER" />
+            <marker date="1489889787312" expanded="true" signature="16133:16158" ph="SELECT COUNT... USER" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/products.jsp">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/info_manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/backend/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/ProductShowExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="708" column="44" lean-forward="true" selection-start-line="708" selection-start-column="44" selection-end-line="708" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="155" column="96" lean-forward="true" selection-start-line="155" selection-start-column="96" selection-end-line="155" selection-end-column="96" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10917#10918#0" expanded="true" />
+            <element signature="e#10966#10967#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackProductsController.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="325">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/model/School.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="false" />
+            <element signature="e#1590#1591#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackAdminController.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="75" column="32" lean-forward="true" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        <state relative-caret-position="202">
+          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/net/URLEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="196" column="22" lean-forward="false" selection-start-line="196" selection-start-column="15" selection-end-line="196" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserUpdateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="71" column="30" lean-forward="false" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/back/controller/BackSchoolController.java">
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/UserShowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+        <state relative-caret-position="25">
+          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/util/StatusUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/SignInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="79" column="49" lean-forward="false" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773">
+          <caret line="94" column="52" lean-forward="true" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="440" column="26" lean-forward="true" selection-start-line="440" selection-start-column="26" selection-end-line="440" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="186" column="40" lean-forward="false" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/favorList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="144" column="43" lean-forward="false" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="142" column="43" lean-forward="false" selection-start-line="142" selection-start-column="43" selection-end-line="142" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/user/messages.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/products/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="178" column="39" lean-forward="false" selection-start-line="178" selection-start-column="39" selection-end-line="178" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="399" column="43" lean-forward="false" selection-start-line="399" selection-start-column="43" selection-end-line="399" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/product/publish.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/web/WEB-INF/pages/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductEditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YM_Web/src/main/java/com/ym/er/controller/ProductShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -20,4 +20,5 @@ public interface ProductShowMapper {
      * @mbggenerated
      */
     List<ProductShow> selectByExample(ProductShowExample example);
+
 }

@@ -2,6 +2,7 @@ package com.ym.er.back.controller;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.ym.er.auth.SchoolManagerAuthPassport;
 import com.ym.er.model.Message;
 import com.ym.er.model.ProductShow;
 import com.ym.er.model.Result;
@@ -39,11 +40,13 @@ public class BackProductsController {
         this.messageService = messageService;
     }
 
+    @SchoolManagerAuthPassport
     @GetMapping("/products")
     public String productPage() {
         return "backend/products";
     }
 
+    @SchoolManagerAuthPassport
     @PostMapping("/products")
     @ResponseBody
     public Result<?> getProducts(@SessionAttribute(StatusUtil.SCHOOLIDKEY) Integer schoolId, @RequestParam(value = "page",required = false) Integer page,
@@ -65,6 +68,7 @@ public class BackProductsController {
         }
     }
 
+    @SchoolManagerAuthPassport
     @PostMapping("/products/{productId}/past")
     @ResponseBody
     public Result pastProduct(@PathVariable int productId, Model model, @RequestParam("userId")int userId,@SessionAttribute(StatusUtil.SUPERUSERIDKEY)int managerId) {

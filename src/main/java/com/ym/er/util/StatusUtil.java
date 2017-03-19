@@ -17,13 +17,44 @@ public class StatusUtil {
     public static final byte UNREAD = 0;
 
 
+    /**
+     * 登录状态值
+     */
     public static final String LOGINSTATUSVALUE = "LOGIN";
+    /**
+     * 查询登录状态的键
+     */
     public static final String LOGINSTATUSKEY = "LOGIN";
+    /**
+     * 查询登陆的用户
+     */
     public static final String LOGINUSERKEY = "LOGINUSER";
+    /**
+     * 查询登陆的超级管理员
+     */
     public static final String LOGINSUPERUSERKEY = "LOGINSUPERUSER";
+    /**
+     * 登录用户的id
+     */
     public static final String USERIDKEY = "USERID";
+    /**
+     * 炒鸡用户的id
+     */
     public static final String SUPERUSERIDKEY = "SUPERUSERID";
+    /**
+     * 学校的id
+     */
     public static final String SCHOOLIDKEY = "SCHOOLID";
+    /**
+     * 学校bean
+     * 在cookie中为学校的名称
+     */
+    public static final String SCHOOLKEY = "SCHOOLKEY";
+
+    /**
+     * 后台登录用户的角色编号
+     */
+    public static final String BACKENDROLE = "BACKENDROLE";
 
     /**
      * 超级管理员

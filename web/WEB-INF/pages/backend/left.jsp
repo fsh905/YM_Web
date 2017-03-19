@@ -21,7 +21,7 @@
     <c:choose>
       <c:when test="${superUser.roleId == 2}">
         <ul class="top">
-          <li><a href="info_manager" target="main"><i class="home"></i><em>管理首页</em></a></li>
+          <li><a href="/backend/infoManager" target="main"><i class="home"></i><em>管理首页</em></a></li>
         </ul>
         <ul>
           <li><a href="products" target="main"><i class="system"></i><em>新上架商品列表</em></a></li>
@@ -29,7 +29,7 @@
       </c:when>
       <c:otherwise>
         <ul class="top">
-          <li><a href="info_manager" target="main"><i class="home"></i><em>管理首页</em></a></li>
+          <li><a href="/backend/infoAdmin" target="main"><i class="home"></i><em>管理首页</em></a></li>
         </ul>
         <ul>
           <li><a href="schools" target="main"><i class="system"></i><em>学校列表</em></a></li>

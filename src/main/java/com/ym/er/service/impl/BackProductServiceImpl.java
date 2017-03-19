@@ -33,6 +33,41 @@ public class BackProductServiceImpl implements BackProductService {
         return Result.build(200, "查询成功", productShows);
     }
 
+    @Override
+    public Result<Integer> countBySchoolIn7Day(Integer schoolId, Byte status) {
+        ProductShowExample example = new ProductShowExample();
+        example.setSelectDate("DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= DATE(up_time)");
+        if (schoolId == null) {
+            example.createCriteria().andStatusEqualTo(status);
+        } else
+            example.createCriteria().andStatusEqualTo(status).andSchoolIdEqualTo(schoolId);
+        int count = productShowMapper.countByExample(example);
+        return Result.build(200, "查询成功", count);
+    }
+
+    @Override
+    public Result<Integer> countBySchoolInAllTime(Integer schoolId, Byte status) {
+        ProductShowExample example = new ProductShowExample();
+        if (schoolId == null) {
+            example.createCriteria().andStatusEqualTo(status);
+        } else
+            example.createCriteria().andStatusEqualTo(status).andSchoolIdEqualTo(schoolId);
+        int count = productShowMapper.countByExample(example);
+        return Result.build(200, "查询成功", count);
+    }
+
+    @Override
+    public Result<Integer> countAllIn7Day(Byte status) {
+        return countBySchoolIn7Day(null, status);
+    }
+
+    @Override
+    public Result<Integer> countAllInAllTime(Byte status) {
+        return countBySchoolInAllTime(null, status);
+    }
+
+
+
     /**
      * 1 today
      * 2 yesterday
