@@ -90,8 +90,6 @@
                                                 <option value="2">女</option>
                                                 <option value="1">男</option>
                                             </c:if>
-                                            <option value="2">女</option>
-                                            <option value="1">男</option>
 
                                         </select>
                                     </div>
