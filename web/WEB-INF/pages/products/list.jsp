@@ -12,8 +12,13 @@
 <html lang="en-US">
 <head>
   <script type="text/javascript">
-    if (window.location.href.indexOf('?') > 0)
-      window.location.href = window.location.href.replace('?', '#');
+    if (window.location.href.indexOf('?') > 0){
+      let href = window.location.href.replace('?', '#');
+
+      window.location.href = href;
+    }
+
+
   </script>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,7 +73,7 @@
     }
   </style>
 
-  <title>Realia | HTML Template</title>
+  <title>列表</title>
 </head>
 <body>
 <div id="wrapper-outer" >
@@ -92,11 +97,11 @@
                   <c:forEach items="${category}" var="ca">
                     <div class="product-category">
                       <div class="category-header">
-                        <a href="void:javascript()" class="categoryClick" data-type="bigCategory" data-category="${ca.bigCategory.id}">${ca.bigCategory.name}</a>
+                        <a href="#bigCategory=${ca.bigCategory.id}" class="categoryClick" data-type="bigCategory" data-category="${ca.bigCategory.id}">${ca.bigCategory.name}</a>
                       </div>
                       <ul class="inline category-list">
                         <c:forEach items="${ca.category}" var="cc">
-                          <li><a href="void:javascript()" class="categoryClick" data-type="category"  data-category="${cc.id}">${cc.name}</a></li>
+                          <li><a href="#category=${cc.id}" class="categoryClick" data-type="category"  data-category="${cc.id}">${cc.name}</a></li>
                         </c:forEach>
                       </ul>
                     </div>
@@ -114,9 +119,6 @@
                       <button class="btn btn-info sort-btn" data-type="watchTimes">查看</button>
                     </li>
                     <li>
-                      <button class="btn btn-info sort-btn" data-type="commentTimes">评论</button>
-                    </li>
-                    <li>
                       价格:
                     </li>
                     <li>
@@ -129,19 +131,6 @@
                     <li>
                       <button class="btn btn-primary" id="priceBtn">确定</button>
                     </li>
- <%-- 暂时不提供                   <li>
-                      上架时间:
-                    </li>
-                    <li>
-                      <input type="text" class="date" name="startDate">
-                    </li>
-                    <li>
-                      :
-                      <input type="text" class="date" name="endDate">
-                    </li>
-                    <li>
-                      <button class="btn btn-primary" id="dataBtn">确定</button>
-                    </li>--%>
                     <li>
                       <input type="checkbox" class="type-btn" name="type" value="3">
                     </li>
@@ -210,14 +199,16 @@
       format: 'yyyy-mm-dd hh:MM:ss'
     });
     
-    // 分类
+/*    // 当点击分类上面的链接时
     $(document).on('click', '.categoryClick', function () {
       let type = $(this).attr('data-type'),
         id = $(this).attr('data-category'),
         href = window.location.href;
       toggleClass($('button.btn-success'), 'btn-success', 'btn-info');
-      window.location.href = href.substring(0, href.lastIndexOf('/') + 1) + '#' + type + "=" + id;
-    })
+      let u = href.substring(0, href.lastIndexOf('/') + 1) + '#' + type + "=" + id;
+      console.log(u);
+      window.location.href = u;
+    })*/
     // 排序
     $('.sort-btn').on('click',  function () {
       let type = $(this).attr('data-type'),
@@ -468,11 +459,7 @@
                     '<span class="value">'+item.watchTimes+'</span>' +
                   '</div>' +
                 '<div class="bedrooms">' +
-                  '<div class="content">点赞：100 '+
-                  '</div>' +
-                '</div>' +
-                '<div class="bathrooms">' +
-                  '<div class="content">评论：20</div>' +
+                  '<div class="content">点赞：'+ item.favorTimes +
                   '</div>' +
                 '</div>';
     }

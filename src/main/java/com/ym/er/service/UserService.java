@@ -46,7 +46,7 @@ public interface UserService {
      */
     Result<User> selectUserById(int id);
 
-
+    Result checkNameIsDuplicate(String name);
 
     Result<Integer> countBySchoolIn7Day(Integer schoolId);
     Result<Integer> countBySchoolInAllTime(Integer schoolId);

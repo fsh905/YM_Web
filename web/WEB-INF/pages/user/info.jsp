@@ -127,9 +127,10 @@
                         <div class="span3">
                             修改头像
                             <img id="show-img" src="${user.photo}">
-                            <form  enctype="multipart/form-data" method="post" action="/user/update/photo">
-                                <input id="update-photo" name="photo"  type="file" value="点击更换头像"/>
-                                <button class="btn" >确定</button>
+                            <form  enctype="multipart/form-data" id="update-photo-form" method="post" action="/user/update/photo">
+                                <button id="select-img" type="button" class="btn btn-primary">选择图片</button>
+                                <input id="update-photo" style="display: none;" name="photo"  type="file" value="点击更换头像"/>
+                                <button class="btn" type="submit">确定</button>
                             </form>
                         </div>
                     </div>
@@ -141,70 +142,6 @@
         <%@ include file="../footer.html"%>
     </div><!-- /#wrapper -->
 </div><!-- /#wrapper-outer -->
-
-<div class="palette">
-    <div class="toggle">
-        <a href="#">Toggle</a>
-    </div><!-- /.toggle -->
-
-    <div class="inner">
-        <div class="headers">
-            <h2>Header styles</h2>
-            <ul>
-                <li><a class="header-light">Light</a></li>
-                <li><a class="header-normal">Normal</a></li>
-                <li><a class="header-dark">Dark</a></li>
-            </ul>
-        </div><!-- /.headers -->
-
-        <div class="patterns">
-            <h2>Background patterns</h2>
-            <ul>
-                <li><a class="pattern-cloth-alike">cloth-alike</a></li>
-                <li><a class="pattern-corrugation">corrugation</a></li>
-                <li><a class="pattern-diagonal-noise">diagonal-noise</a></li>
-                <li><a class="pattern-dust">dust</a></li>
-                <li><a class="pattern-fabric-plaid">fabric-plaid</a></li>
-                <li><a class="pattern-farmer">farmer</a></li>
-                <li><a class="pattern-grid-noise">grid-noise</a></li>
-                <li><a class="pattern-lghtmesh">lghtmesh</a></li>
-                <li><a class="pattern-pw-maze-white">pw-maze-white</a></li>
-                <li><a class="pattern-none">none</a></li>
-            </ul>
-        </div>
-
-        <div class="colors">
-            <h2>Color variants</h2>
-            <ul>
-                <li><a href="/assets/css/realia-red.css" class="red">Red</a></li>
-                <li><a href="/assets/css/realia-magenta.css" class="magenta">Magenta</a></li>
-                <li><a href="/assets/css/realia-brown.css" class="brown">Brown</a></li>
-                <li><a href="/assets/css/realia-orange.css" class="orange">Orange</a></li>
-                <li><a href="/assets/css/realia-brown-dark.css" class="brown-dark">Brown dark</a></li>
-
-                <li><a href="/assets/css/realia-gray-red.css" class="gray-red">Gray Red</a></li>
-                <li><a href="/assets/css/realia-gray-magenta.css" class="gray-magenta">Gray Magenta</a></li>
-                <li><a href="/assets/css/realia-gray-brown.css" class="gray-brown">Gray Brown</a></li>
-                <li><a href="/assets/css/realia-gray-orange.css" class="gray-orange">Gray Orange</a></li>
-                <li><a href="/assets/css/realia-gray-brown-dark.css" class="gray-brown-dark">Gray Brown dark</a></li>
-
-                <li><a href="/assets/css/realia-green-light.css" class="green-light">Green light</a></li>
-                <li><a href="/assets/css/realia-green.css" class="green">Green</a></li>
-                <li><a href="/assets/css/realia-turquiose.css" class="turquiose">Turquiose</a></li>
-                <li><a href="/assets/css/realia-blue.css" class="blue">Blue</a></li>
-                <li><a href="/assets/css/realia-violet.css" class="violet">Violet</a></li>
-
-                <li><a href="/assets/css/realia-gray-green-light.css" class="gray-green-light">Gray Green light</a></li>
-                <li><a href="/assets/css/realia-gray-green.css" class="gray-green">Gray Green</a></li>
-                <li><a href="/assets/css/realia-gray-turquiose.css" class="gray-turquiose">Gray Turquiose</a></li>
-                <li><a href="/assets/css/realia-gray-blue.css" class="gray-blue">Gray Blue</a></li>
-                <li><a href="/assets/css/realia-gray-violet.css" class="gray-violet">Gray Violet</a></li>
-            </ul>
-        </div><!-- /.colors -->
-
-        <a href="#" class="btn btn-primary reset">Reset default</a>
-    </div><!-- /.inner -->
-</div><!-- /.palette -->
 
 
 <script type="text/javascript" src="/assets/js/jquery.js"></script>
@@ -222,6 +159,9 @@
 <script type="text/javascript" src="/assets/libraries/bootstrap-fileupload/bootstrap-fileupload.js"></script>
 <script type="text/javascript" src="/assets/js/realia.js"></script>
 <script type="text/javascript">
+    $('#select-img').on('click', function () {
+      $('#update-photo').click();
+    })
     $('#update-photo').on('change', function() {
         var file = this.files[0];
         var freader = new FileReader();
@@ -231,6 +171,26 @@
             $('#show-img')[0].src = src;
         }
     })
+    $('#update-photo-form').submit(function (ev) {
+      let self = $(this),
+        formData = new FormData(this);
+      $.ajax({
+        url: "/user/update/photo",
+        type: "POST",
+        data: formData,
+        processData: false,  // tell jQuery not to process the data
+        contentType: false,   // tell jQuery not to set contentType
+        success: function (res) {
+          console.log(res);
+          alert(res.msg);
+        },
+        error: function (err) {
+          console.log(err);
+        }
+      })
+      ev.preventDefault();
+      return false;
+    });
 </script>
 </body>
 </html>

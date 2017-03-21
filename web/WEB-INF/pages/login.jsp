@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="assets/css/realia-blue.css" type="text/css" id="color-variant-default">
     <link rel="stylesheet" href="#" type="text/css" id="color-variant">
 
-    <title>Realia | HTML Template</title>
+    <title>登录注册</title>
 </head>
 <body>
 <div id="wrapper-outer" >
@@ -33,7 +33,7 @@
                 <div class="container">
                     <div>
                         <div id="main">
-                            <h1 class="page-header">Login</h1>
+                            <h1 class="page-header">登录</h1>
                             <div class="login-register">
                                 <div class="row">
                                     <div class="span6 offset3">
@@ -85,6 +85,7 @@
                                                         <label class="control-label" for="">
                                                             用户名
                                                             <span class="form-required" title="This field is required.">*</span>
+                                                            <span class="form-required" style="display: none" id="duplicate-name-warring">此用户名已被注册</span>
                                                         </label>
 
                                                         <div class="controls">
@@ -211,6 +212,33 @@
             format: 'yyyy-mm-dd',
             date: new Date(1995, 1, 1)
         });
+        $('#name').blur(function () {
+          let name = $(this).val();
+          checkName(name, function (res) {
+            // 200 不重复
+            // 400 重复
+            if (res.status === 400) {
+              $('#duplicate-name-warring').css({display:'inline'})
+            } else {
+              $('#duplicate-name-warring').css({display:'none'})
+            }
+          }, function (failed) {
+            console.error(failed);
+          })
+        })
+        let checkName = function (name,success,failed) {
+          $.ajax({
+            url: '/user/name/check',
+            type: 'post',
+            data: {name: name},
+            success: function (res) {
+              success(res);
+            },
+            error: function (err) {
+              failed(err);
+            }
+          })
+        }
     } );
 
 </script>

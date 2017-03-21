@@ -55,6 +55,14 @@ public class UserServiceImpl implements UserService{
         return res == 1 ? Result.build(200, "更改成功") : Result.build(400, "更改失败");
     }
 
+    @Override
+    public Result checkNameIsDuplicate(String name) {
+        UserExample example = new UserExample();
+        example.createCriteria().andNameEqualTo(name);
+        int count = userMapper.countByExample(example);
+        return count == 0 ? Result.build(200, "可以使用") : Result.build(400, "已被注册");
+    }
+
     //    @Transactional
     public Result<User> selectUserById(int id) {
         User user = userMapper.selectByPrimaryKey(id);

@@ -118,7 +118,7 @@
                         <div class="content">
                           <form method="get" action="/products/search/">
                             <div class="location control-group">
-                              <label class="control-label">
+                              <label class="control-label" for="bigCategory">
                                 种类
                               </label>
                               <div class="controls">
@@ -131,7 +131,7 @@
                             </div><!-- /.control-group -->
 
                             <div class="type control-group">
-                              <label class="control-label" for="inputType">
+                              <label class="control-label" for="category">
                                 类别
                               </label>
                               <div class="controls">
@@ -160,25 +160,6 @@
                                 <input class="price" id="inputBaths" type="number" name="highPrice" value="1000">
                               </div><!-- /.controls -->
                             </div><!-- /.control-group -->
-
-
-                            <div class="rent control-group">
-                              <div class="controls">
-                                <label class="checkbox" for="type1">
-                                  <input type="checkbox" id="type1" name="type" value="3"> 闲置
-                                </label>
-                              </div><!-- /.controls -->
-                            </div><!-- /.control-group -->
-
-                            <div class="sale control-group">
-                              <div class="controls">
-                                <label class="checkbox" for="inputSale">
-                                  <input type="checkbox" id="inputSale" name="type" value="4"> 求购
-                                </label>
-                              </div><!-- /.controls -->
-                            </div><!-- /.control-group -->
-
-
                             <div class="form-actions">
                               <input type="submit" value="搜索" class="btn btn-primary btn-large">
                             </div><!-- /.form-actions -->
@@ -473,7 +454,25 @@
     $('#setSchool')[0].remove();
     window.location.replace(location.href);
   })
+
 </script>
 </c:if>
+<script type="text/javascript">
+  $('#bigCategory').on('change', function () {
+    let big = $(this).val();
+    $.get('/category/'+big,function (res) {
+      let cate = $('#category'),
+        cates = res.data;
+      if (res.status === 200) {
+        cate.empty();
+        for(let i=0; i<cates.length; i++) {
+          let t = cates[i];
+          cate.append('<option value="'+t.id+'">' + t.name + '</option>');
+        }
+        cate.trigger("liszt:updated");
+      }
+    })
+  })
+</script>
 </body>
 </html>

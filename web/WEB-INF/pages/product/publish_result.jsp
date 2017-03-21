@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Feng
@@ -23,23 +24,25 @@
   <link rel="stylesheet" href="/assets/css/realia-blue.css" type="text/css" id="color-variant-default">
   <link rel="stylesheet" href="#" type="text/css" id="color-variant">
 
-  <title>错误页面</title>
+  <title>发布结果</title>
 </head>
 <body>
 <div id="wrapper-outer" >
   <div id="wrapper">
     <div id="wrapper-inner">
       <!-- BREADCRUMB -->
-      <%@ include file="header.jsp"%>
+      <%@ include file="../header.jsp"%>
 
       <!-- CONTENT -->
       <div id="content"><div class="container">
         <div id="main">
           <div class="not-found">
-            <strong>${result.status}</strong>
-            <h1>${result.msg}</h1>
-            <h2><a href="${result.data}">返回</a></h2>
-
+            <strong>${status}</strong>
+            <h1>${msg}</h1>
+            <c:if test="${pId != 0}">
+            <h2><a href="/product/${pId}/update">重新编辑</a></h2>
+            </c:if>
+            <h2><a href="/product/publish">继续添加</a></h2>
             <h3><a href="/index">返回首页</a> </h3>
 
             <hr>
@@ -49,7 +52,7 @@
       </div><!-- /#content -->
     </div><!-- /#wrapper-inner -->
 
-    <%@ include file="footer.html"%>
+    <%@ include file="../footer.html"%>
   </div><!-- /#wrapper -->
 </div><!-- /#wrapper-outer -->
 

@@ -40,7 +40,7 @@
         </javaClientGenerator>
 
         <!-- !!!! Table Configurations !!!! -->
-        <table tableName="school_manager" enableSelectByExample="true" enableDeleteByExample="false" enableDeleteByPrimaryKey="false" enableUpdateByExample="false" enableUpdateByPrimaryKey="false"/>
+        <table tableName="product_message_view" enableSelectByExample="true" enableInsert="false" enableDeleteByExample="false" enableDeleteByPrimaryKey="false" enableUpdateByExample="false" enableUpdateByPrimaryKey="false"/>
 <!--        <table tableName="message"/>
         <table tableName="product"/>
         <table tableName="product_image"/>

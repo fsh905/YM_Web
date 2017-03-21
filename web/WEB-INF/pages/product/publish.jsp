@@ -53,7 +53,7 @@
         }
     </style>
 
-    <title>Realia | HTML Template</title>
+    <title>发布闲置</title>
 </head>
 <body>
 <div id="wrapper-outer" >
@@ -105,12 +105,12 @@
                                                 </div><!-- /.control-group -->
 
                                                 <div class="property-type control-group">
-                                                    <label class="control-label" >
+                                                    <label class="control-label" for="bigCategory">
                                                         类型
                                                         <span class="form-required" title="This field is required.">*</span>
                                                     </label>
                                                     <div class="controls">
-                                                        <select>
+                                                        <select id="bigCategory">
                                                             <c:forEach items="${bigCategory}" var="ca">
                                                                 <option value="${ca.id}">
                                                                         ${ca.name}
@@ -122,12 +122,12 @@
                                                 </div><!-- /.control-group -->
 
                                                 <div class="contract-type control-group">
-                                                    <label class="control-label">
+                                                    <label class="control-label" for="category">
                                                         种类
                                                         <span class="form-required" title="This field is required.">*</span>
                                                     </label>
                                                     <div class="controls">
-                                                        <select name="category" id="productCategory">
+                                                        <select name="category" id="category">
                                                             <c:forEach items="${category}" var="ca">
                                                                 <option value="${ca.id}"
                                                                     <c:if test="${ca.id == product.category}">
@@ -188,13 +188,13 @@
                                                     <div class="controls">
                                                         <select name="type" id="productType">
                                                             <c:choose>
-                                                                <c:when test="${product.type == 3}">
-                                                                    <option value="3" selected >闲置</option>
-                                                                    <option value="4">求购</option>
-                                                                </c:when>
-                                                                <c:otherwise>
+                                                                <c:when test="${product.type == 4}">
                                                                     <option value="3">闲置</option>
                                                                     <option value="4" selected>求购</option>
+                                                                </c:when>
+                                                                <c:otherwise>
+                                                                    <option value="3" selected >闲置</option>
+                                                                    <option value="4">求购</option>
                                                                 </c:otherwise>
                                                             </c:choose>
 
@@ -250,7 +250,7 @@
     let showImgElement = $('#uploadImgList'),
     selectImgElement = $('#files'),
     uploadForm = $('#publish'),
-    //初始化时显示的元素
+    //初始化时显示的图片
     imgArray = [],
       <c:choose>
         <c:when test="${method == 'update'}">
@@ -261,7 +261,6 @@
         </c:otherwise>
       </c:choose>
 
-//    var imgArray = [{index: 102, url: 'assets/img/photos/logo-sunsynk.png'}, {index: 108, url: 'assets/img/photos/logo-shuba.png'}];
     //上传文件
     uploadFiles = [],
     // 删除文件的 id
@@ -270,8 +269,10 @@
     imgIndex = 0,
     // 目前的位置
     imgSize = 0,
+    // 最多上传的图片
     maxImgSize = 4;
     <c:forEach items="${productImages}" var="img">
+    // 当修改商品时，初始化显示的图片
     imgArray.push({index:${img.imageId}, url: '${img.url}'});
     </c:forEach>
     selectImgElement.on('change', function (evt) {
@@ -297,13 +298,14 @@
         }
     })
 
+    // 删除准备上传的图片
     $(document).on('click', '.delete', function() {
         var parent = $(this).parent();
         var index = parent.attr('data-index');
         if (parent.attr('data-type') === 'add'){
             uploadFiles[index] = undefined;
         } else {
-            // delete
+            // 删除已经存在的图片
             deleteFiles.push(index);
         }
         parent.remove();
@@ -311,7 +313,7 @@
     })
 
     // 上传图片
-    var upload = function(formData) {
+    let upload = function(formData) {
         uploadFiles.filter(s => s != undefined).forEach(v => formData.append('addImages', v));
         deleteFiles.forEach(d => formData.append('deleteImages', d));
         // addFormDatasFunction(formData);
@@ -325,9 +327,10 @@
             success: uploadSuccess,
             error: uploadError
         })
-    }
+    },
 
-    var initShow = function() {
+    // 显示图片
+    initShow = function() {
         imgSize += imgArray.length;
         for (var i = imgArray.length - 1; i >= 0; i--) {
             var img = imgArray[i];
@@ -336,21 +339,23 @@
         }
     }
 
-    var uploadSuccess = function(result) {
+    uploadSuccess = function(result) {
         console.log(result);
         if (result.status === 200) {
             console.log(result.msg);
-            let addData = result.data;
-//            window.location.href = '/product/' + addData.productId + '/info';
+//            let addData = result.data;
+          window.location.href = '/product/'+result.data.productId+'/result?status='+result.status+'&msg='+result.msg;
+        } else {
+          window.location.href = '/product/0/result?status='+result.status+'&msg='+result.msg;
         }
     }
-    var uploadError = function(error) {
+    uploadError = function(error) {
         console.log(error);
-    }
+    };
     uploadForm.on('submit', function(ev) {
         var formData = new FormData($('#publish'));
         formData.append("name",$("#productName").val());
-        formData.append("category",$("#productCategory").val());
+        formData.append("category",$("#category").val());
         formData.append("price",$("#productPrice").val());
         formData.append("originPrice",$("#productOriginPrice").val());
         formData.append("contact1",$("#productContact1").val());
@@ -364,16 +369,23 @@
 
 
     $('#addImgBtn').on('click', () => $('#files').trigger('click'));
+    $('#bigCategory').on('change', function () {
+      let big = $(this).val();
+      $.get('/category/'+big,function (res) {
+        let cate = $('#category'),
+          cates = res.data;
+        if (res.status === 200) {
+          cate.empty();
+          for(let i=0; i<cates.length; i++) {
+            let t = cates[i];
+            cate.append('<option value="'+t.id+'">' + t.name + '</option>');
+          }
+          cate.trigger("liszt:updated");
+        }
+      })
+    });
     initShow();
 
-    // var form = document.forms.namedItem("publish");
-    // form.addEventListener('submit', function(ev) {
-
-    //   var oData = new FormData(form);
-    //   console.log(oData);
-
-    //   // ev.preventDefault();
-    // }, false);
 
 </script>
 

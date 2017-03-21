@@ -81,7 +81,7 @@ public class ProductEditController {
             modelAndView.addObject("login",userId);
         }
         //提供评论信息
-        Result<List<ProductMessage>> msR = productMessageService.selectMessageByProductId(pId);
+        Result<List<ProductMessageView>> msR = productMessageService.selectMessageViewByProductId(pId);
         if (msR.getStatus() == 200) {
             modelAndView.addObject("comments", msR.getData());
         }

@@ -1,9 +1,8 @@
 package com.ym.er.service.impl;
 
 import com.ym.er.mapper.ProductMessageMapper;
-import com.ym.er.model.ProductMessage;
-import com.ym.er.model.ProductMessageExample;
-import com.ym.er.model.Result;
+import com.ym.er.mapper.ProductMessageViewMapper;
+import com.ym.er.model.*;
 import com.ym.er.service.ProductMessageService;
 import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,12 +18,13 @@ import java.util.List;
 public class ProductMessageServiceImpl implements ProductMessageService{
 
     private ProductMessageMapper productMessageMapper;
+    private ProductMessageViewMapper productMessageViewMapper;
 
     @Autowired
-    public ProductMessageServiceImpl(ProductMessageMapper productMessageMapper) {
+    public ProductMessageServiceImpl(ProductMessageMapper productMessageMapper, ProductMessageViewMapper productMessageViewMapper) {
         this.productMessageMapper = productMessageMapper;
+        this.productMessageViewMapper = productMessageViewMapper;
     }
-
 
     @Override
     public Result<ProductMessage> insertMessage(ProductMessage message) {
@@ -56,6 +56,13 @@ public class ProductMessageServiceImpl implements ProductMessageService{
         ProductMessageExample example = new ProductMessageExample();
         example.createCriteria().andProductIdEqualTo(productId).andStatusEqualTo(StatusUtil.EXIST);
         List<ProductMessage> messages = productMessageMapper.selectByExample(example);
+        return messages == null ? Result.build(400, "没有数据") : Result.build(200, "获取成功", messages);
+    }
+    @Override
+    public Result<List<ProductMessageView>> selectMessageViewByProductId(int productId) {
+        ProductMessageViewExample example = new ProductMessageViewExample();
+        example.createCriteria().andProductIdEqualTo(productId);
+        List<ProductMessageView> messages = productMessageViewMapper.selectByExample(example);
         return messages == null ? Result.build(400, "没有数据") : Result.build(200, "获取成功", messages);
     }
 }

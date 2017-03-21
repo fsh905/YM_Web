@@ -53,22 +53,30 @@ public class UserShowController {
     @PostMapping(value = "/update")
     public ModelAndView updateUserInfo(@SessionAttribute(StatusUtil.USERIDKEY)int userId, User user, ModelAndView modelAndView) {
         user.setUserId(userId);
+        // 更新session中的用户对象
         Result result = userService.update(user);
         modelAndView.addObject("result", result);
+        result.setData("/user/info");
         modelAndView.setViewName("result");
         return modelAndView;
     }
 
     @PostMapping(value = "/update/photo")
     @ResponseBody
-    public Result updateUserPhoto(@SessionAttribute(StatusUtil.USERIDKEY)int userId, @RequestParam("photo")MultipartFile file) {
+    public Result updateUserPhoto(@SessionAttribute(StatusUtil.USERIDKEY)int userId, @RequestParam("photo")MultipartFile file,
+                                  HttpSession session) {
         Result<String> saveImgResult = FileUtil.saveSingleImg(file);
         User user = new User();
         if (saveImgResult.getStatus() == 200) {
             user.setPhoto(saveImgResult.getData());
         }
         user.setUserId(userId);
-        return userService.update(user);
+        Result result = userService.update(user);
+        if (result.getStatus() == 200) {
+            User user1 = (User) session.getAttribute(StatusUtil.LOGINUSERKEY);
+            user1.setPhoto(saveImgResult.getData());
+        }
+        return result;
     }
 
     @PostMapping(value = "/update/password")
@@ -81,6 +89,12 @@ public class UserShowController {
         modelAndView.addObject("result", result);
         modelAndView.setViewName("result");
         return modelAndView;
+    }
+
+    @PostMapping("/name/check")
+    @ResponseBody
+    public Result checkNameIsDuplicate(@RequestParam("name") String name) {
+        return userService.checkNameIsDuplicate(name);
     }
 
 }
