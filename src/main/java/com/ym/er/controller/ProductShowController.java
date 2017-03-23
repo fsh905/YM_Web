@@ -13,6 +13,7 @@ import com.ym.er.util.FileUtil;
 import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -61,7 +62,8 @@ public class ProductShowController {
 
     @RequestMapping(value = "/publish", method = RequestMethod.POST)
     @ResponseBody
-    public Result<Product> addNewProduct(@SessionAttribute(StatusUtil.USERIDKEY)int userId, @SessionAttribute(StatusUtil.SCHOOLIDKEY) int schoolId, Product product, @RequestParam("addImages")MultipartFile files[]) {
+    @Transactional
+    public Result addNewProduct(@SessionAttribute(StatusUtil.USERIDKEY)int userId, @SessionAttribute(StatusUtil.SCHOOLIDKEY) int schoolId, Product product, @RequestParam("addImages")MultipartFile files[]) {
         //save product get productId
         product.setUserId(userId);
         product.setSchoolId(schoolId);
@@ -71,6 +73,11 @@ public class ProductShowController {
             // save img
             List<ProductImage> images = getImgs(FileUtil.saveMultiImgs(files), productId);
             Result<List<ProductImage>> result = productService.insertProductImage(images);
+            if (result.getStatus() == 400) {
+                //添加图片未成功，删除这个
+                productService.deleteProduct(productId);
+                return result;
+            }
             //跳转到详情页面
             return productResult;
         } else {

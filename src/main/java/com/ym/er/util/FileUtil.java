@@ -24,7 +24,7 @@ public class FileUtil {
         String fileType = file.getContentType();
         String fileFormat = fileType.substring(fileType.lastIndexOf("/")+1);
         String vPath = "/images/stu/header/"+ IDUtils.genImageName()+"."+fileFormat;
-        StringBuilder path = new StringBuilder("G:" + vPath);
+        StringBuilder path = new StringBuilder("E:" + vPath);
         try {
             File newImg = new File(path.toString());
             if (!newImg.exists()) {

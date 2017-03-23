@@ -265,8 +265,7 @@
       ' <span class="key">查看次数:</span>'+
       '<span class="value">'+ item.watchTimes +'</span>'+
       ' </div>'+
-      ' <div class="bedrooms"><div class="content">'+ item.favorTimes +'</div></div>'+
-      ' <div class="bathrooms"><div class="content">评论次数</div></div>'+
+      ' <div class=""><div class="content">点赞次数：'+ item.favorTimes +'</div></div>'+
         '<div class="editArea">'+
           editBtn +
         '</div>'+
