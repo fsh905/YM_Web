@@ -100,7 +100,7 @@ public class ProductShowController {
     @RequestMapping(value = "/{pId}/edit", method = RequestMethod.POST)
     @ResponseBody
     public Result updateProductInfo(@PathVariable("pId")int pId,
-            @SessionAttribute("userId")int userId,
+            @SessionAttribute(StatusUtil.USERIDKEY)int userId,
                                     Product product,
                                     @RequestParam(value = "addImages", required = false)MultipartFile files[],
                                     @RequestParam(value = "deleteImages", required = false)int deleteIds[]) {
@@ -109,17 +109,19 @@ public class ProductShowController {
         product.setProductId(pId);
         Result<Product> productResult = productService.updateProduct(product);
         if (productResult.getStatus() == 200) {
-            // save img
+            // 保存新添加的图片
             Optional.ofNullable(files).ifPresent(addF -> {
-                productService.insertProductImage(getImgs(FileUtil.saveMultiImgs(files), pId));
+                List<ProductImage> imgs = getImgs(FileUtil.saveMultiImgs(addF), pId);
+                Optional.ofNullable(imgs).ifPresent(productService::insertProductImage);
             });
+            // 删除已删除的图片
             Optional.ofNullable(deleteIds).ifPresent(deleteids -> {
                 productService.deleteProductImage(deleteids);
             });
             //跳转到详情页面
-            return Result.build(200, "更改成功");
+            return Result.build(200, "更改成功", product);
         } else {
-            return Result.build(200, "更改失败");
+            return Result.build(400, "更改失败");
         }
     }
 

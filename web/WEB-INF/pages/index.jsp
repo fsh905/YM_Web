@@ -53,6 +53,9 @@
       top: 255px;
       left: -126px;
     }
+    .img-slide{
+      max-height: 330px;
+    }
   </style>
   <title>主页</title>
 </head>
@@ -89,7 +92,7 @@
                         <div class='slider-content'>
                           <c:forEach items="${watchProducts}" var="wa">
                             <div class="slide">
-                              <img src="${wa.header}" alt="">
+                              <img class="img-slide" src="${wa.header}" alt="">
 
                               <div class="slider-info">
                                 <div class="price">

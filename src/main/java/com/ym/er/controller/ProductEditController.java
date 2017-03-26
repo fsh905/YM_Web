@@ -54,7 +54,7 @@ public class ProductEditController {
     }
 
     @GetMapping("/{pId}/update")
-    public ModelAndView updateProductInfo(@ModelAttribute("product")Product product, ModelAndView modelAndView) {
+    public ModelAndView updateProductInfo(@SessionAttribute(StatusUtil.USERIDKEY) int userId, @ModelAttribute("product")Product product, ModelAndView modelAndView) {
         // 带上种类
         List<Category> bigCate = categoryService.selectBigCategory();
         modelAndView.addObject("bigCategory", bigCate);
