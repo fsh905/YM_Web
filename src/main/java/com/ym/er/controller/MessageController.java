@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * Created by YM on 3/15/2017.
- *
+ * 消息控制
  */
 @Controller
 @RequestMapping("/message")

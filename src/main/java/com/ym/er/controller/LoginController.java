@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * Created by YM on 3/9/2017.
- * 学校
+ * 登录/注册
  */
 @Controller
 public class LoginController {
@@ -29,6 +29,9 @@ public class LoginController {
         this.schoolService = schoolService;
     }
 
+    /**
+     * 注册时的学校列表
+     */
     @ModelAttribute
     public void addSchoolList(Model model) {
         Result<List<School>> listResult = schoolService.selectAllSchool();

@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="#" type="text/css" id="color-variant">
 
     <title>个人信息</title>
+    <style>
+        form[name="checkCodeForm"],form[name="updatePasswordForm"] {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <div id="wrapper-outer" >
@@ -47,8 +52,8 @@
                                 <!-- <img src="/assets/img/tmp/property-small-1.png"> -->
                                 <h2>${user.name}</h2>
                                 <ul class="nav nav-pills nav-stacked">
-                                    <li class="active"><a href="/user/info">信息</a></li>
-                                    <li><a href="/user/update/password">修改密码</a></li>
+                                    <li><a href="/user/info">信息</a></li>
+                                    <li class="active"><a href="/user/update/password">修改密码</a></li>
                                     <li><a href="/user/messages">消息</a></li>
                                     <li><a href="/user/index">闲置</a></li>
                                     <li><a href="/user/favor">点赞</a></li>
@@ -59,85 +64,42 @@
                         </div>
                         <div class="span6">
                             <br>
-                            <form class="form" method="post" action="/user/update">
-                                <legend>个人信息</legend>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputEmail">姓名</label>
-                                    <div class="controls">
-                                        <input type="text" class="span6" name="name"  value="${user.name}">
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputEmail">生日</label>
-                                    <div class="controls">
-                                        <c:set var="simpleDateFormat" value='<%= new java.text.SimpleDateFormat("yyyy-MM-dd") %>'/>
+                            <form class="form" name="sendCheckCodeForm" method="post" action="">
 
-
-                                        <input type="text" class="span6 uneditable-input" value="${simpleDateFormat.format(user.birthday)}">
-                                        <c:set value="new java.util.Date()" var="date"/>
-
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="sex">性别</label>
-                                    <div class="controls">
-                                        <select id="sex" name="sex">
-                                            <c:choose>
-                                                <c:when test="${user.sex == 1}">
-                                                    <option value="1">男</option>
-                                                    <option value="2">女</option>
-                                                </c:when>
-                                                <c:otherwise>
-                                                    <option value="2">女</option>
-                                                    <option value="1">男</option>
-                                                </c:otherwise>
-                                            </c:choose>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="control-group">
-                                    <label class="control-label" for="inputEmail">手机号码</label>
-                                    <div class="controls">
-                                        <input type="text" class="span6"  value="${user.phone}" name="phone">
-                                    </div>
-                                </div>
+                                <legend>发送验证码:</legend>
                                 <div class="control-group">
                                     <label class="control-label" for="inputEmail">邮箱</label>
                                     <div class="controls">
-                                        <input type="email" class="span6"  value="${user.email}" name="email">
+                                        <input type="text"  class="span6 uneditable-input" name="name"  value="${user.email}">
                                     </div>
                                 </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputEmail">QQ</label>
-                                    <div class="controls">
-                                        <input type="text" class="span6" value="${user.qq}" name="qq">
-                                    </div>
-                                </div>
-
-                                <div class="control-group">
-                                    <label class="control-label" for="inputEmail">微信</label>
-                                    <div class="controls">
-                                        <input type="text" class="span6" name="wechat"  value="${user.wechat}">
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <label class="control-label" for="inputEmail">学校</label>
-                                    <div class="controls">
-                                        <input type="text" class="span6 uneditable-input"  value="${sessionScope.get('SCHOOLKEY').schoolName}">
-                                    </div>
-                                </div>
-
-                                <button type="submit" class="btn btn-large btn-primary">保存修改</button>
+                                <button type="submit" class="btn btn-large btn-primary">发送</button>
                             </form>
-                        </div>
-                        <div class="span3">
-                            修改头像
-                            <img id="show-img" src="${user.photo}">
-                            <form  enctype="multipart/form-data" id="update-photo-form" method="post" action="/user/update/photo">
-                                <button id="select-img" type="button" class="btn btn-primary">选择图片</button>
-                                <input id="update-photo" style="display: none;" name="photo"  type="file" value="点击更换头像"/>
-                                <button class="btn" type="submit">确定</button>
+                            <form class="form" name="checkCodeForm" method="post">
+                                <div class="control-group">
+                                    <label class="control-label" for="inputEmail">输入验证码
+                                        <span class="form-required" style="display: none" id="checkCodeError">验证码输入错误</span>
+                                    </label>
+                                    <div class="controls">
+                                        <input type="text" class="span6" name="code">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-large btn-primary">验证</button>
+                            </form>
+                            <form class="form" name="updatePasswordForm" method="post" action="/user/update/password">
+                                <div class="control-group">
+                                    <label class="control-label" for="inputEmail">新密码</label>
+                                    <div class="controls">
+                                        <input type="text" class="span6"   name="password">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputEmail">重复密码</label>
+                                    <div class="controls">
+                                        <input type="text" class="span6" name="duplicatePassword">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-large btn-primary">确认修改</button>
                             </form>
                         </div>
                     </div>
@@ -166,38 +128,58 @@
 <script type="text/javascript" src="/assets/libraries/bootstrap-fileupload/bootstrap-fileupload.js"></script>
 <script type="text/javascript" src="/assets/js/realia.js"></script>
 <script type="text/javascript">
-    $('#select-img').on('click', function () {
-      $('#update-photo').click();
+    $('input[name="code"]').on('change',function () {
+      $('#checkCodeError').css('display','none');
     })
-    $('#update-photo').on('change', function() {
-        var file = this.files[0];
-        var freader = new FileReader();
-        freader.readAsDataURL(file);
-        freader.onload = function (e) {
-            var src = e.target.result;
-            $('#show-img')[0].src = src;
+    $('form[name="sendCheckCodeForm"]').submit(function (ev) {
+      let self = $(this);
+      sendForm('/user/sendCheckEmail', {}, function (res) {
+        console.log(res);
+        if (res.status == 200) {
+          self.css("display", "none");
+          $('form[name="checkCodeForm"]').css('display', 'block');
+        } else {
+          alert('邮件发送失败，请刷新重试');
         }
-    })
-    $('#update-photo-form').submit(function (ev) {
-      let self = $(this),
-        formData = new FormData(this);
-      $.ajax({
-        url: "/user/update/photo",
-        type: "POST",
-        data: formData,
-        processData: false,  // tell jQuery not to process the data
-        contentType: false,   // tell jQuery not to set contentType
-        success: function (res) {
-          console.log(res);
-          alert(res.msg);
-        },
-        error: function (err) {
-          console.log(err);
-        }
-      })
+      }, function (err) {
+        console.log(err);
+      });
       ev.preventDefault();
       return false;
     });
+    $('form[name="checkCodeForm"]').submit(function (ev) {
+      let data = new FormData(this),
+      self = $(this);
+      sendForm('/user/check', data, function (res) {
+        console.log(res);
+        if (res.status == 200) {
+          self.css("display", "none");
+          $('form[name="updatePasswordForm"]').css('display', 'block');
+        } else {
+          $('#checkCodeError').css('display','inline');
+        }
+
+      }, function (err) {
+        console.log(err);
+      });
+      ev.preventDefault();
+      return false;
+    });
+    let sendForm = function (url, data, success, failed) {
+      $.ajax({
+        url: url,
+        type: "POST",
+        data: data,
+        processData: false,  // tell jQuery not to process the data
+        contentType: false,   // tell jQuery not to set contentType
+        success: function (res) {
+          success(res);
+        },
+        error: function (err) {
+          failed(err);
+        }
+      })
+    }
 </script>
 </body>
 </html>

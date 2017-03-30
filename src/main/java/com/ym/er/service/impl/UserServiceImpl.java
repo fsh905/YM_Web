@@ -1,6 +1,5 @@
 package com.ym.er.service.impl;
 
-import com.sun.org.apache.regexp.internal.RE;
 import com.ym.er.mapper.UserMapper;
 import com.ym.er.model.Result;
 import com.ym.er.model.User;
@@ -10,17 +9,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
-import java.util.Optional;
-
 /**
  * Created by YM on 3/8/2017.
+ * 用户信息service
  */
 @Service
 public class UserServiceImpl implements UserService{
+
+    /**
+     * 验证是否重复
+     */
+    private enum CheckMethod {
+        NAME,
+        PHONE,
+        EMAIL;
+    }
+
     @Autowired
     private UserMapper userMapper;
 
@@ -57,8 +61,30 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public Result checkNameIsDuplicate(String name) {
+        return checkMethodIsDuplicate(CheckMethod.NAME, name);
+    }
+
+    @Override
+    public Result checkEmailIsDuplicate(String email) {
+        return checkMethodIsDuplicate(CheckMethod.EMAIL, email);
+    }
+
+    @Override
+    public Result checkPhoneIsDuplicate(String phone) {
+        return checkMethodIsDuplicate(CheckMethod.PHONE, phone);
+    }
+
+    private Result checkMethodIsDuplicate(CheckMethod method, String value) {
         UserExample example = new UserExample();
-        example.createCriteria().andNameEqualTo(name);
+        switch (method) {
+            case NAME: example.createCriteria().andNameEqualTo(value);
+            break;
+            case EMAIL: example.createCriteria().andEmailEqualTo(value);
+            break;
+            case PHONE: example.createCriteria().andPhoneEqualTo(value);
+            break;
+            default:
+        }
         int count = userMapper.countByExample(example);
         return count == 0 ? Result.build(200, "可以使用") : Result.build(400, "已被注册");
     }
@@ -93,4 +119,5 @@ public class UserServiceImpl implements UserService{
         int res = userMapper.countAllTime();
         return Result.build(200, "查询成功", res);
     }
+
 }

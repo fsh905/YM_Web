@@ -73,6 +73,7 @@
 
                                                     <div class="form-actions">
                                                         <input type="submit" value="登录" class="btn btn-primary arrow-right">
+                                                        <a href="/findPassword" style="float:right;" class="btn btn-primary arrow-left">找回密码</a>
                                                     </div>
                                                     <!-- /.form-actions -->
                                                 </form>
@@ -82,7 +83,7 @@
                                             <div class="tab-pane" id="register">
                                                 <form method="post" action="/signin">
                                                     <div class="control-group">
-                                                        <label class="control-label" for="">
+                                                        <label class="control-label" for="name">
                                                             用户名
                                                             <span class="form-required" title="This field is required.">*</span>
                                                             <span class="form-required" style="display: none" id="duplicate-name-warring">此用户名已被注册</span>
@@ -96,7 +97,7 @@
                                                     <!-- /.control-group -->
 
                                                     <div class="control-group">
-                                                        <label class="control-label" for="">
+                                                        <label class="control-label" for="birthday">
                                                             生日
                                                             <span class="form-required" title="This field is required.">*不可修改</span>
                                                         </label>
@@ -109,19 +110,21 @@
                                                     <!-- /.control-group -->
 
                                                     <div class="control-group">
-                                                        <label class="control-label" for="inputRegisterEmail">
-                                                            手机号
+                                                        <label class="control-label" for="email">
+                                                            Email
+
                                                             <span class="form-required" title="This field is required.">*</span>
+                                                            <span class="form-required" id="duplicate-email-warring" title="This field is required.">此邮箱已经被注册</span>
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="text" id="phone" class="span4" name="phone">
+                                                            <input type="email" id="email" class="span4" name="email">
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
                                                     <!-- /.control-group -->
                                                     <div class="control-group">
-                                                        <label class="control-label" for="inputRegisterEmail">
+                                                        <label class="control-label" for="school-list">
                                                             学校
                                                             <span class="form-required" title="This field is required.">*</span>
                                                         </label>
@@ -139,7 +142,7 @@
                                                     <!-- /.control-group -->
 
                                                     <div class="control-group">
-                                                        <label class="control-label" for="inputRegisterPassword">
+                                                        <label class="control-label" for="password">
                                                             密码
                                                             <span class="form-required" title="This field is required.">*</span>
                                                         </label>
@@ -152,13 +155,13 @@
                                                     <!-- /.control-group -->
 
                                                     <div class="control-group">
-                                                        <label class="control-label" for="inputRegisterRetype">
+                                                        <label class="control-label" for="repeat_password">
                                                             再输一次
                                                             <span class="form-required" title="This field is required.">*</span>
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="text" id="repeat password">
+                                                            <input type="text" id="repeat_password">
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -214,7 +217,7 @@
         });
         $('#name').blur(function () {
           let name = $(this).val();
-          checkName(name, function (res) {
+          check(name, 'name', function (res) {
             // 200 不重复
             // 400 重复
             if (res.status === 400) {
@@ -226,9 +229,23 @@
             console.error(failed);
           })
         })
-        let checkName = function (name,success,failed) {
+      $('#email').blur(function () {
+          let name = $(this).val();
+          check(name, 'email', function (res) {
+            // 200 不重复
+            // 400 重复
+            if (res.status === 400) {
+              $('#duplicate-email-warring').css({display:'inline'})
+            } else {
+              $('#duplicate-email-warring').css({display:'none'})
+            }
+          }, function (failed) {
+            console.error(failed);
+          })
+        })
+        let check = function (name,method, success,failed) {
           $.ajax({
-            url: '/user/name/check',
+            url: '/user/'+method+'/check',
             type: 'post',
             data: {name: name},
             success: function (res) {

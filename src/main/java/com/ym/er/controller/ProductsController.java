@@ -27,7 +27,7 @@ import java.util.Map;
  * Created by YM on 3/13/2017.
  * 公共的显示商品
  */
-@Controller("")
+@Controller
 @RequestMapping("/products")
 public class ProductsController {
 

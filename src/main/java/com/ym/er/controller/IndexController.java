@@ -37,6 +37,9 @@ public class IndexController {
         this.schoolService = schoolService;
     }
 
+    /**
+     * 搜索栏的种类显示
+     */
     @ModelAttribute("cate")
     public void productCategory(Model model) {
         List<Category> bigCate = categoryService.selectBigCategory();
@@ -44,9 +47,12 @@ public class IndexController {
         model.addAttribute("category", categoryService.selectCategoryByPId(bigCate.get(0).getId()));
     }
 
+    /**
+     * 首页的商品显示,分别显示不同的排序结果
+     */
     @ModelAttribute("products")
     public void indexProductShow(Model model, @CookieValue(value = StatusUtil.SCHOOLIDKEY,required = false) Integer schoolId) {
-
+        // 没有设置学校的话发送学校列表让用户选择,然后再显示
         if (schoolId == null) {
             schoolId = 1;
             model.addAttribute("setSchool", "YES");

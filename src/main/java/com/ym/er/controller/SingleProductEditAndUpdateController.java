@@ -1,32 +1,25 @@
 package com.ym.er.controller;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.ym.er.model.*;
 import com.ym.er.service.*;
-import com.ym.er.util.FileUtil;
 import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpSession;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 /**
  * Created by YM on 3/11/2017.
- *
+ * 单个商品更新与查看
  */
 @Controller
 @RequestMapping("/product")
-public class ProductEditController {
+public class SingleProductEditAndUpdateController {
 
     private ProductService productService;
     private CategoryService categoryService;
@@ -35,7 +28,7 @@ public class ProductEditController {
     private ProductMessageService productMessageService;
 
     @Autowired
-    public ProductEditController(ProductService productService, CategoryService categoryService, FavorProductService favorProductService, UserService userService, ProductMessageService productMessageService) {
+    public SingleProductEditAndUpdateController(ProductService productService, CategoryService categoryService, FavorProductService favorProductService, UserService userService, ProductMessageService productMessageService) {
         this.productService = productService;
         this.categoryService = categoryService;
         this.favorProductService = favorProductService;
@@ -43,6 +36,9 @@ public class ProductEditController {
         this.productMessageService = productMessageService;
     }
 
+    /**
+     * 通过id获取商品信息与图片
+     */
     @ModelAttribute
     public Model getProductInfo(@PathVariable("pId")int pId, Model model) {
         Result<Product> productResult = productService.selectProductById(pId);

@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * Created by YM on 3/16/2017.
- * 产品留言
+ * 商品留言
  */
 @Controller
 @RequestMapping("/comment")
@@ -31,6 +31,9 @@ public class ProductMessageController {
         this.productService = productService;
     }
 
+    /**
+     * 添加留言
+     */
     @PostMapping("/add")
     @ResponseBody
     public Result addComment(@SessionAttribute(StatusUtil.USERIDKEY) int userId, ProductMessage message) {
@@ -49,21 +52,27 @@ public class ProductMessageController {
         }
         return messageService.insertMessage(message);
     }
-
-    private Result<Message> sendMsgToUser(String title, String content, int userId) {
+    // 发送留言
+    private void sendMsgToUser(String title, String content, int userId) {
         Message proMsg = new Message();
         proMsg.setTitle(title);
         proMsg.setContent(content);
         proMsg.setUserId(userId);
-        return messageSendService.insertMessage(proMsg);
+        messageSendService.insertMessage(proMsg);
     }
 
+    /**
+     * 删除留言
+     */
     @PostMapping("/{cId}/delete")
     @ResponseBody
     private Result deleteComment(@SessionAttribute(StatusUtil.USERIDKEY)int userId, @PathVariable int cId) {
         return messageService.deleteProductMessage(cId);
     }
 
+    /**
+     * 获取所有留言
+     */
     @GetMapping("/product/{pId}")
     @ResponseBody
     public Result<?> getProductComment(@PathVariable int pId, @RequestParam(value = "page", required = false) Integer page) {

@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * Created by YM on 3/10/2017.
- * 学校
+ * 学校控制
  */
 @Controller
 @RequestMapping("/school")

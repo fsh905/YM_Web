@@ -47,6 +47,8 @@ public interface UserService {
     Result<User> selectUserById(int id);
 
     Result checkNameIsDuplicate(String name);
+    Result checkEmailIsDuplicate(String email);
+    Result checkPhoneIsDuplicate(String phone);
 
     Result<Integer> countBySchoolIn7Day(Integer schoolId);
     Result<Integer> countBySchoolInAllTime(Integer schoolId);

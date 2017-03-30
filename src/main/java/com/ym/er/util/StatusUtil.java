@@ -16,6 +16,12 @@ public class StatusUtil {
     public static final byte READ = 1;
     public static final byte UNREAD = 0;
 
+    /**
+     * 验证码
+     */
+    public static final String CHECKCODE = "CHECKCODE";
+    public static final String CHECKCODESUCCESS = "CHECKCODESUCCESS";
+
 
     /**
      * 登录状态值
