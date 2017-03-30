@@ -49,6 +49,7 @@
                                                         <label class="control-label" for="">
                                                             用户名
                                                             <span class="form-required" title="This field is required.">*</span>
+                                                            <span class="form-required" title="This field is required.">${msg}</span>
                                                         </label>
 
                                                         <div class="controls">

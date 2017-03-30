@@ -51,6 +51,8 @@ public class SignInController {
             // 登陆成功, 重定向到首页
             loginSuccess(session, response, result.getData());
             modelAndView.setView(new RedirectView("user/index"));
+        } else {
+            modelAndView.addObject("msg", result.getMsg());
         }
         return modelAndView;
     }

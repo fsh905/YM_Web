@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * Created by YM on 3/8/2017.
  * 用户信息service
@@ -87,6 +89,18 @@ public class UserServiceImpl implements UserService{
         }
         int count = userMapper.countByExample(example);
         return count == 0 ? Result.build(200, "可以使用") : Result.build(400, "已被注册");
+    }
+
+    @Override
+    public Result<User> selectUserIdByEmail(String email) {
+        UserExample example = new UserExample();
+        example.createCriteria().andEmailEqualTo(email);
+        List<User> lu = userMapper.selectByExample(example);
+        if (lu == null || lu.size() == 0) {
+            return Result.build(400, "此邮箱未注册");
+        }
+        User user = lu.get(0);
+        return Result.build(200, "获取成功", user);
     }
 
     //    @Transactional

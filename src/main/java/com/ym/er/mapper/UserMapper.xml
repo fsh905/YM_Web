@@ -445,7 +445,7 @@
 
   <update id="updatePassword" parameterType="com.ym.er.model.User">
     update user
-    set name = #{password,jdbcType=VARCHAR}
+    set password = #{password,jdbcType=VARCHAR}
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
 

@@ -46,6 +46,8 @@ public interface UserService {
      */
     Result<User> selectUserById(int id);
 
+    Result<User> selectUserIdByEmail(String email);
+
     Result checkNameIsDuplicate(String name);
     Result checkEmailIsDuplicate(String email);
     Result checkPhoneIsDuplicate(String phone);

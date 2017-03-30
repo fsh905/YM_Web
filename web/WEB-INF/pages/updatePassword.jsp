@@ -38,22 +38,22 @@
     <div id="wrapper">
         <div id="wrapper-inner">
             <!-- BREADCRUMB -->
-
+            <%@ include file="header.jsp"%>
             <!-- CONTENT -->
             <div id="content"><div class="container">
                 <div id="main">
-                    <h1 class="page-header">个人信息</h1>
+                    <h1 class="page-header">找回密码</h1>
                     <div class="row">
 
                         <div class="span12">
                             <br>
                             <form class="form" name="sendCheckCodeForm" method="post" action="">
 
-                                <legend>发送验证码:</legend>
+                                <legend>输入邮箱并发送验证码:</legend>
                                 <div class="control-group">
                                     <label class="control-label" for="inputEmail">邮箱</label>
                                     <div class="controls">
-                                        <input type="text"  class="span6 uneditable-input" name="name"  value="${user.email}">
+                                        <input type="text"  class="span6" name="email">
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-large btn-primary">发送</button>
@@ -91,7 +91,7 @@
             </div><!-- /#content -->
         </div><!-- /#wrapper-inner -->
 
-        <%@ include file="../footer.html"%>
+        <%@ include file="footer.html"%>
     </div><!-- /#wrapper -->
 </div><!-- /#wrapper-outer -->
 
@@ -115,14 +115,14 @@
       $('#checkCodeError').css('display','none');
     })
     $('form[name="sendCheckCodeForm"]').submit(function (ev) {
-      let self = $(this);
-      sendForm('/user/sendCheckEmail', {}, function (res) {
+      let self = $(this), data = new FormData(this);
+      sendForm('/findPassword/sendCheckEmail', data, function (res) {
         console.log(res);
         if (res.status == 200) {
           self.css("display", "none");
           $('form[name="checkCodeForm"]').css('display', 'block');
         } else {
-          alert('邮件发送失败，请刷新重试');
+          alert(res.msg);
         }
       }, function (err) {
         console.log(err);
