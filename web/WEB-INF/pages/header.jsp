@@ -88,18 +88,6 @@
         <ul class="nav">
           <li class="menuparent">
             <span class="menuparent"><a href="/index">主页</a></span>
-            <ul>
-              <c:choose>
-                  <c:when test="${sessionScope.get('LOGIN') == null}">
-                  <li><a href="/login">个人主页</a></li>
-                  <li><a href="/login">个人信息</a></li>
-                  </c:when>
-                <c:otherwise>
-                  <li><a href="/user/index">个人主页</a></li>
-                  <li><a href="/user/info">个人信息</a></li>
-                </c:otherwise>
-              </c:choose>
-            </ul>
           </li>
           <li class="menuparent">
             <span class="menuparent nolink">种类</span>
