@@ -51,6 +51,13 @@
         .upload-img{
             margin-left: 20px;
         }
+        input[type="number"] {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            height: 40px;
+            width: 100%;
+        }
     </style>
 
     <title>发布闲置</title>
@@ -100,7 +107,7 @@
                                                         <span class="form-required" title="This field is required.">*</span>
                                                     </label>
                                                     <div class="controls">
-                                                        <input type="text" id="productName" value="${product.name}" name="name">
+                                                        <input type="text" id="productName" required value="${product.name}" name="name">
                                                     </div><!-- /.controls -->
                                                 </div><!-- /.control-group -->
 
@@ -146,7 +153,7 @@
                                                         <span class="form-required" title="This field is required.">*</span>
                                                     </label>
                                                     <div class="controls">
-                                                        <input type="text" name="price" value="${product.price}" id="productPrice">
+                                                        <input type="number" name="price" required value="${product.price}" id="productPrice">
                                                     </div><!-- /.controls -->
                                                 </div><!-- /.control-group -->
 
@@ -156,7 +163,7 @@
                                                         <span class="form-required" title="This field is required.">*</span>
                                                     </label>
                                                     <div class="controls">
-                                                        <input type="text" name="originPrice" id="productOriginPrice" value="${product.originPrice}">
+                                                        <input type="number" name="originPrice" required id="productOriginPrice" value="${product.originPrice}">
                                                     </div><!-- /.controls -->
                                                 </div><!-- /.control-group -->
 
@@ -208,10 +215,10 @@
                                                         <span class="form-required" title="This field is required.">*</span>
                                                     </label>
                                                     <div class="controls">
-                                                        <textarea name ="description" id="productDescription">${product.description}</textarea>
+                                                        <textarea minlength="10" maxlength="500" name ="description" placeholder="10-500字" id="productDescription">${product.description}</textarea>
                                                     </div><!-- /.controls -->
                                                 </div><!-- /.control-group -->
-                                                <button class="btn btn-large btn-primary" id="upload">提交1</button>
+                                                <button class="btn btn-large btn-primary" id="upload">提交</button>
                                             </div><!-- /.span4 -->
                                         </form>
                                     </div><!-- /.row -->
@@ -244,7 +251,8 @@
 <script type="text/javascript" src="/assets/libraries/iosslider/_src/jquery.iosslider.min.js"></script>
 <script type="text/javascript" src="/assets/libraries/bootstrap-fileupload/bootstrap-fileupload.js"></script>
 <script type="text/javascript" src="/assets/js/realia.js"></script>
-
+<script type="text/javascript" src="/assets/libraries/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/assets/libraries/jquery-validation/dist/localization/messages_zh.min.js"></script>
 <script type="text/javascript">
     //显示图片的元素
     let showImgElement = $('#uploadImgList'),
@@ -270,7 +278,8 @@
     // 目前的位置
     imgSize = 0,
     // 最多上传的图片
-    maxImgSize = 4;
+    maxImgSize = 4,
+    validate = uploadForm.validate();
     <c:forEach items="${productImages}" var="img">
     // 当修改商品时，初始化显示的图片
     imgArray.push({index:${img.imageId}, url: '${img.url}'});
@@ -353,7 +362,8 @@
         console.log(error);
     };
     uploadForm.on('submit', function(ev) {
-        var formData = new FormData($('#publish'));
+        if (!validate.form()) return;
+        let formData = new FormData($('#publish'));
         formData.append("name",$("#productName").val());
         formData.append("category",$("#category").val());
         formData.append("price",$("#productPrice").val());
@@ -367,8 +377,7 @@
         return false;
     })
 
-
-    $('#addImgBtn').on('click', () => $('#files').trigger('click'));
+    $('#addImgBtn').on('click', () => uploadFiles.trigger('click'));
     $('#bigCategory').on('change', function () {
       let big = $(this).val();
       $.get('/category/'+big,function (res) {

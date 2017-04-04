@@ -41,7 +41,7 @@ public class SignInController {
      * 接收登录请求
      */
     @PostMapping(value = "/login")
-    public ModelAndView login(@RequestParam("username")String userName, @RequestParam("password")String password,
+    public ModelAndView login(@RequestParam("username") String userName, @RequestParam("password") String password,
                               HttpSession session,
                               HttpServletResponse response,
                               ModelAndView modelAndView) {
@@ -56,6 +56,7 @@ public class SignInController {
         }
         return modelAndView;
     }
+
     // 退出
     @GetMapping("/logout")
     public String logout(@SessionAttribute(StatusUtil.USERIDKEY) int userId, HttpSession session) {
@@ -63,6 +64,7 @@ public class SignInController {
         session.removeAttribute(StatusUtil.LOGINSTATUSKEY);
         return "redirect:/index";
     }
+
     // 注册
     @PostMapping(value = "/signin")
     public ModelAndView signIn(User user,
@@ -82,7 +84,7 @@ public class SignInController {
     /**
      * 登录成功,向session和cookie中放用户的信息
      */
-    private void loginSuccess(HttpSession session, HttpServletResponse  response, User user) {
+    private void loginSuccess(HttpSession session, HttpServletResponse response, User user) {
         School school = schoolService.selectSchoolById(user.getSchoolId()).getData();
         session.setAttribute(StatusUtil.USERIDKEY, user.getUserId());
         session.setAttribute(StatusUtil.SCHOOLKEY, school);

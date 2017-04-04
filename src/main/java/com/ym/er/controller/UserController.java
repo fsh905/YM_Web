@@ -64,6 +64,12 @@ public class UserController {
         modelAndView.addObject("result", result);
         if (result.getStatus() == 200) {
             // 更新session中的用户信息
+            // 更新头像,生日
+            User oldUser = (User) session.getAttribute(StatusUtil.LOGINUSERKEY);
+            user.setPhoto(oldUser.getPhoto());
+            user.setBirthday(oldUser.getBirthday());
+            user.setSchoolId(oldUser.getSchoolId());
+            user.setRegistTime(oldUser.getRegistTime());
             session.setAttribute(StatusUtil.LOGINUSERKEY, user);
         }
         result.setData("/user/info");

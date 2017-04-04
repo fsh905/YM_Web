@@ -49,7 +49,7 @@
             display: none;
         }
     </style>
-    <title>Realia | HTML Template</title>
+    <title>点赞过的商品</title>
 </head>
 <body>
 <div id="wrapper-outer" >
@@ -92,10 +92,10 @@
                         </div>
                         <div class="span9">
                             <div class="rows">
-                                <h1 class="page-header">${user.name}的闲置</h1>
+                                <h1 class="page-header">所有点赞的商品</h1>
 
                                 <div class="properties-rows">
-                                    所有点赞的商品
+
                                 </div><!-- /.properties-rows -->
                                 <div class="properties-rows">
                                     <div class="row" id="product-show-list">

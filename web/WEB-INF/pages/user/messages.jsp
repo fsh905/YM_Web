@@ -33,7 +33,7 @@
       text-align: right;
     }
   </style>
-  <title>Realia | HTML Template</title>
+  <title>消息中心</title>
 </head>
 <body>
 <div id="wrapper-outer" >
@@ -67,7 +67,7 @@
             <div class="span9">
               <div class="rows">
 
-                <h2>最近闲置</h2>
+                <h2>消息中心</h2>
                 <hr/>
                 <div id="message-show">
 

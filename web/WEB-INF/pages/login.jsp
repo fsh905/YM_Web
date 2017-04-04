@@ -44,7 +44,7 @@
                                         <!-- /.nav -->
                                         <div class="tab-content">
                                             <div class="tab-pane active" id="login">
-                                                <form method="post" action="/login">
+                                                <form method="post" action="/login" id="login-form">
                                                     <div class="control-group">
                                                         <label class="control-label" for="">
                                                             用户名
@@ -53,7 +53,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="text" id="username" name="username">
+                                                            <input type="text" id="username" name="username" required>
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -66,7 +66,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="password"  name="password">
+                                                            <input type="password"  name="password" required>
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -82,7 +82,7 @@
                                             <!-- /.tab-pane -->
 
                                             <div class="tab-pane" id="register">
-                                                <form method="post" action="/signin">
+                                                <form method="post" action="/signin" id="register-form">
                                                     <div class="control-group">
                                                         <label class="control-label" for="name">
                                                             用户名
@@ -91,7 +91,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="text" id="name" name="name">
+                                                            <input type="text" id="name" name="name" required minlength="4" maxlength="30">
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -104,7 +104,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="text" id="birthday" name="birthday">
+                                                            <input type="text" id="birthday" name="birthday" required>
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -115,11 +115,11 @@
                                                             Email
 
                                                             <span class="form-required" title="This field is required.">*</span>
-                                                            <span class="form-required" id="duplicate-email-warring" title="This field is required.">此邮箱已经被注册</span>
+                                                            <span class="form-required" id="duplicate-email-warring" style="display: none" title="This field is required.">此邮箱已经被注册</span>
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="email" id="email" class="span4" name="email">
+                                                            <input style="box-sizing: border-box;height: 40px;width: 100%;" type="email" id="email" class="span4" name="email" required>
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -131,7 +131,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <select name="schoolId" class="span4" id="school-list">
+                                                            <select name="schoolId" style="width: 100%" class="span4" id="school-list">
                                                                 <c:forEach items="${schools}" var="school">
                                                                     <option value="${school.schoolId}">${school.schoolName}</option>
                                                                 </c:forEach>
@@ -149,7 +149,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="text" id="password" name="password">
+                                                            <input type="password" id="password" name="password" required minlength="6" maxlength="30">
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -162,7 +162,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="text" id="repeat_password">
+                                                            <input type="password" id="repeat_password" required minlength="6" maxlength="30">
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -209,8 +209,20 @@
 <script type="text/javascript" src="assets/js/realia.js"></script>
 <script type="text/javascript" src="assets/libraries/datepicker-master/dist/datepicker.min.js"></script>
 <script type="text/javascript" src="assets/libraries/datepicker-master/i18n/datepicker.zh-CN.js"></script>
+<script type="text/javascript" src="assets/libraries/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="assets/libraries/jquery-validation/dist/localization/messages_zh.min.js"></script>
 <script>
     $( function() {
+      $('#login-form').validate({
+        submitHandler: function (form) {
+          $(form).submit();
+        }
+      });
+      $('#register-form').validate({
+        submitHandler: function (form) {
+          $(form).submit();
+        }
+      });
         $( "#birthday" ).datepicker({
             language: 'zh-CN',
             format: 'yyyy-mm-dd',
