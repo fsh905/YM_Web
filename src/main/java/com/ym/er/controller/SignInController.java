@@ -71,6 +71,14 @@ public class SignInController {
                                HttpSession session,
                                HttpServletResponse response,
                                ModelAndView modelAndView) {
+        if (user.getName() == null && user.getName().equals("")) {
+            modelAndView.addObject("msg", "请输入正确的用户名");
+            return modelAndView;
+        }
+        if (user.getEmail() == null && user.getEmail().equals("")) {
+            modelAndView.addObject("msg", "请输入正确的邮箱");
+            return modelAndView;
+        }
         Result<User> result = userService.signin(user);
         modelAndView.addObject("result", result);
         if (result.getStatus() == 200) {

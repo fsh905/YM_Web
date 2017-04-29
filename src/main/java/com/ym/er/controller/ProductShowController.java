@@ -32,7 +32,7 @@ import java.util.Optional;
 @Controller
 @RequestMapping("/product")
 public class ProductShowController {
-
+    // 每页显示商品个数
     private final int PAGESIZE = 2;
 
     private ProductService productService;
@@ -204,12 +204,22 @@ public class ProductShowController {
         return productService.pastProduct(pId);
     }
 
+    /**
+     * 点赞
+     */
     @GetMapping("/{pId}/favor")
     @ResponseBody
     public Result favorProduct(@PathVariable("pId") int pId, @SessionAttribute(StatusUtil.USERIDKEY) int userId) {
         productService.updateFavorTimes(pId);
         return favorProductService.insertFavorProduct(userId, pId);
     }
+
+    /**
+     * 取消点赞
+     * @param pId
+     * @param userId
+     * @return
+     */
     @GetMapping("/{pId}/disFavor")
     @ResponseBody
     public Result disFavorProduct(@PathVariable("pId") int pId, @SessionAttribute(StatusUtil.USERIDKEY) int userId) {

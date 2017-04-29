@@ -20,7 +20,7 @@
     <mvc:resources mapping="/backend/js/**" location="/WEB-INF/pages/backend/js/"/>
     <mvc:resources mapping="/backend/images/**" location="/WEB-INF/pages/backend/images/"/>
 
-    <!-- 识图解析器 -->
+    <!-- 视图解析器 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>

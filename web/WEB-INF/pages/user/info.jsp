@@ -59,13 +59,12 @@
                         </div>
                         <div class="span6">
                             <br>
-                            <form class="form" method="post" id="info-form" action="/user/update">
+                            <form class="form" method="post" action="/user/update">
                                 <legend>个人信息</legend>
                                 <div class="control-group">
-                                    <label class="control-label" for="name">姓名</label>
-                                    <span class="form-required" style="display: none" id="duplicate-name-warring">此用户名已被注册</span>
+                                    <label class="control-label" for="inputEmail">姓名</label>
                                     <div class="controls">
-                                        <input type="text" id="name" class="span6" name="name" required minlength="4" maxlength="30" data-origin-name="${user.name}"  value="${user.name}">
+                                        <input type="text" class="span6" name="name"  value="${user.name}">
                                     </div>
                                 </div>
                                 <div class="control-group">
@@ -74,8 +73,8 @@
                                         <c:set var="simpleDateFormat" value='<%= new java.text.SimpleDateFormat("yyyy-MM-dd") %>'/>
 
 
-                                        <input type="text" class="span6 uneditable-input" required value="${simpleDateFormat.format(user.birthday)}">
-                                        <%--<c:set value="new java.util.Date()" var="date"/>--%>
+                                        <input type="text" class="span6 uneditable-input" value="${simpleDateFormat.format(user.birthday)}">
+                                        <c:set value="new java.util.Date()" var="date"/>
 
                                     </div>
                                 </div>
@@ -100,19 +99,19 @@
                                 <div class="control-group">
                                     <label class="control-label" for="inputEmail">手机号码</label>
                                     <div class="controls">
-                                        <input type="tel" minlength="11" class="span6"  value="${user.phone}" name="phone">
+                                        <input type="text" class="span6"  value="${user.phone}" name="phone">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label class="control-label" for="inputEmail">邮箱</label>
                                     <div class="controls">
-                                        <input type="email" required class="span6"  value="${user.email}" name="email">
+                                        <input type="email" class="span6"  value="${user.email}" name="email">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label class="control-label" for="inputEmail">QQ</label>
                                     <div class="controls">
-                                        <input type="number" minlength="5" maxlength="11" class="span6" value="${user.qq}" name="qq">
+                                        <input type="text" class="span6" value="${user.qq}" name="qq">
                                     </div>
                                 </div>
 
@@ -166,44 +165,11 @@
 <script type="text/javascript" src="/assets/libraries/iosslider/_src/jquery.iosslider.min.js"></script>
 <script type="text/javascript" src="/assets/libraries/bootstrap-fileupload/bootstrap-fileupload.js"></script>
 <script type="text/javascript" src="/assets/js/realia.js"></script>
-<script type="text/javascript" src="/assets/libraries/jquery-validation/dist/jquery.validate.min.js"></script>
-<script type="text/javascript" src="/assets/libraries/jquery-validation/dist/localization/messages_zh.min.js"></script>
 <script type="text/javascript">
-    let validate = $('#info-form').validate();
     $('#select-img').on('click', function () {
       $('#update-photo').click();
     })
-    $('#name').blur(function () {
-      let self = $(this),
-      originName = self.attr('data-origin-name'),
-      nowName = self.val();
-      if (originName === nowName) return;
-      else
-      check(nowName, 'name', function (res) {
-        // 200 不重复
-        // 400 重复
-        if (res.status === 400) {
-          $('#duplicate-name-warring').css({display:'inline'})
-        } else {
-          $('#duplicate-name-warring').css({display:'none'})
-        }
-      }, function (failed) {
-        console.error(failed);
-      })
-    })
-    let check = function (name,method, success,failed) {
-      $.ajax({
-        url: '/user/'+method+'/check',
-        type: 'post',
-        data: {name: name},
-        success: function (res) {
-          success(res);
-        },
-        error: function (err) {
-          failed(err);
-        }
-      })
-    }
+    // 显示头像
     $('#update-photo').on('change', function() {
         var file = this.files[0];
         var freader = new FileReader();
@@ -213,9 +179,8 @@
             $('#show-img')[0].src = src;
         }
     })
+    // 修改头像
     $('#update-photo-form').submit(function (ev) {
-      ev.preventDefault();
-      if (!validate.form()) return false;
       let self = $(this),
         formData = new FormData(this);
       $.ajax({
@@ -232,6 +197,7 @@
           console.log(err);
         }
       })
+      ev.preventDefault();
       return false;
     });
 </script>

@@ -35,9 +35,9 @@ public class FavorProductId implements FavorProductService{
     @Override
     public Result selectIsFavorProduct(int userId, int productId) {
         FavorProductExample example = new FavorProductExample();
-        example.createCriteria().andUserIdEqualTo(userId);
-        List l = favorProductMapper.selectByExample(example);
-        return (l == null || l.size() == 0) ? Result.build(400, "no") : Result.build(200, "yes");
+        example.createCriteria().andUserIdEqualTo(userId).andProductIdEqualTo(productId);
+        int l = favorProductMapper.countByExample(example);
+        return (l == 0) ? Result.build(400, "no") : Result.build(200, "yes");
     }
 
     @Override

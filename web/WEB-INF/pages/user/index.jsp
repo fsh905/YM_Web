@@ -49,7 +49,7 @@
             display: none;
         }
     </style>
-    <title>Realia | HTML Template</title>
+    <title>个人信息</title>
 </head>
 <body>
 <div id="wrapper-outer" >
@@ -110,7 +110,7 @@
                                             </div><!-- /.control-group -->
 
                                             <div class="control-group">
-                                                <label class="control-label" for="inputOrder">
+                                                <label class="control-label" for="orderMethod">
                                                     排序方式
                                                     <span class="form-required" title="This field is required.">*</span>
                                                 </label>
@@ -187,7 +187,7 @@
         }
       })
     }
-
+    // 显示页数
     let showPage = function(pageInfo) {
       let allCount = pageInfo.total,
         allPages = pageInfo.pages,

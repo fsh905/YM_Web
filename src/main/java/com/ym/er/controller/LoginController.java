@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * Created by YM on 3/9/2017.
- * 登录/注册
+ * 登录/注册 页面跳转
  */
 @Controller
 public class LoginController {
@@ -30,6 +30,7 @@ public class LoginController {
     }
 
     /**
+     * 当请求此controller时， 都会携带此model
      * 注册时的学校列表
      */
     @ModelAttribute
@@ -42,7 +43,7 @@ public class LoginController {
 
     @GetMapping(value = "/login")
     public String login() {
-        return "/login";
+        return "login";
     }
 
 
@@ -50,7 +51,7 @@ public class LoginController {
 
     @GetMapping(value = "/signin")
     public String signIn() {
-        return "/login";
+        return "login";
     }
 
 

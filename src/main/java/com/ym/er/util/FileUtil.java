@@ -20,6 +20,11 @@ public class FileUtil {
         return res != null ? Result.build(200, "保存成功", res) : Result.build(400, "保存失败");
     }
 
+    /**
+     * 保存单个图片， 返回保存的地址
+     * @param file
+     * @return 图片地址
+     */
     public static String saveImg(MultipartFile file) {
         String fileType = file.getContentType();
         String fileFormat = fileType.substring(fileType.lastIndexOf("/")+1);
@@ -38,6 +43,11 @@ public class FileUtil {
         return vPath;
     }
 
+    /**
+     * 批量上传图片进行保存
+     * @param files
+     * @return
+     */
     public static Result<List<String>> saveMultiImgs(MultipartFile files[]) {
         List<String> paths = new ArrayList<>();
         for (MultipartFile file : files) {
