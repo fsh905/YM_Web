@@ -10,19 +10,28 @@ import java.util.List;
 /**
  * Created by YM on 3/9/2017.
  * 闲置上下架/修改等功能service
- * 分页放在.....
  */
 public interface ProductService {
 
-
-
-
-
-
+    /**
+     * 添加新商品
+     * @param product 商品
+     * @return 结果
+     */
     Result<Product> insertProduct(Product product);
 
+    /**
+     * 删除商品, 暂未实现
+     * @param productId 商品id
+     * @return 结果
+     */
     Result deleteProduct(int productId);
 
+    /**
+     * 更新商品
+     * @param product 更新后商品
+     * @return 结果
+     */
     Result updateProduct(Product product);
 
     /**
@@ -41,19 +50,40 @@ public interface ProductService {
 
     /**
      * 多条件查询, 交给controller负责
+     * 不应该把这个逻辑放到controller
      * @param example 条件
      * @return 结果
      */
+    @Deprecated
     Result<List<Product>> selectProductByExample(ProductExample example);
 
+    /**
+     * 用户所有的商品
+     * @param userId 用户id
+     * @return 商品
+     */
     Result<List<Product>> selectProductByUserId(int userId);
 
+    /**
+     * 排序查询
+     * @param userId 用户id
+     * @param order 排序方式 "上架时间, 价格"等
+     * @param up true:升序 false降序
+     * @return 结果
+     */
     Result<List<Product>> selectProductByUserId(int userId, String order, boolean up);
 
+    /**
+     * 查询点赞过的商品
+     * @param userId 用户id
+     * @param order 排序条件 "上架时间, 价格"
+     * @param up true:升序 false:降序
+     * @return 商品
+     */
     Result<List<Product>> selectFavorProductByUserId(int userId, String order, boolean up);
 
     /**
-     *
+     * 多条件查询,
      * @param types 商品/闲置
      * @param bigCategory 大类 :
      * @param category 小类, 与大类不能共存
@@ -109,9 +139,18 @@ public interface ProductService {
             Integer schoolId
                                                      );
 
-
+    /**
+     * 商品图片添加
+     * @param productImages 图片
+     * @return 结果
+     */
     Result<List<ProductImage>> insertProductImage(List<ProductImage> productImages);
 
+    /**
+     * 查询商品的所有图片
+     * @param productId 商品
+     * @return 图片
+     */
     Result<List<ProductImage>> selectImageByProductId(int productId);
 
     /**
@@ -123,14 +162,39 @@ public interface ProductService {
      */
 //    Result<ProductImage> selectHeaderImageByProductId(int productId);
 
+    /**
+     * 删除图片
+     * @param imgId 图片
+     * @return 结果
+     */
     Result deleteProductImage(int imgId);
 
+    /**
+     * 批量删除图片
+     * @param imgIds 图片ids
+     * @return 结果
+     */
     Result deleteProductImage(int[] imgIds);
 
+    /**
+     * 单个添加商品图片
+     * @param productImage 商品图片
+     * @return 结果
+     */
     Result<ProductImage> insertProductImage(ProductImage productImage);
 
+    /**
+     * 增加查看次数
+     * @param productId 商品id
+     * @return 结果
+     */
     Result updateWatchTimes(int productId);
 
+    /**
+     * 增加点赞次数
+     * @param productId 商品
+     * @return 结果
+     */
     Result updateFavorTimes(int productId);
 
 }

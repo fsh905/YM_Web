@@ -10,10 +10,24 @@ import java.util.List;
  */
 public interface CategoryService {
 
+    /**
+     * 通过父id获取子类
+     * @param pId 父id
+     * @return 子类别
+     */
     List<Category> selectCategoryByPId(int pId);
 
+    /**
+     * 获取所有商品大类
+     * @return 大类
+     */
     List<Category> selectBigCategory();
 
+    /**
+     * 相同大类下的子类别
+     * @param id 父类id
+     * @return 子类别
+     */
     List<Category> selectSamePIdCategory(int id);
 
 }

@@ -13,8 +13,6 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aviators - byaviators.com">
-
-
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="/assets/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/bootstrap-responsive.css" type="text/css">

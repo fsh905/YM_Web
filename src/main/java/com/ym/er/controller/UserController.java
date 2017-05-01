@@ -1,24 +1,19 @@
 package com.ym.er.controller;
 
-import com.sun.org.apache.regexp.internal.RE;
 import com.ym.er.model.Result;
-import com.ym.er.model.School;
 import com.ym.er.model.User;
-import com.ym.er.service.SchoolService;
 import com.ym.er.service.UserService;
 import com.ym.er.util.FileUtil;
 import com.ym.er.util.MailUtils;
 import com.ym.er.util.StatusUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.mail.MessagingException;
 import javax.servlet.http.HttpSession;
-import java.util.Optional;
 
 /**
  * Created by YM on 3/9/2017.

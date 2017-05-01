@@ -11,6 +11,12 @@ import java.util.List;
  */
 public interface SuperUserService {
 
+    /**
+     * 管理员登录
+     * @param userName 用户名
+     * @param password 密码
+     * @return 登陆成功后的管理员信息
+     */
     Result<SuperUser> login(String userName, String password);
 
     /**
