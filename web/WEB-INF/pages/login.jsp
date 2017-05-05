@@ -162,7 +162,7 @@
                                                         </label>
 
                                                         <div class="controls">
-                                                            <input type="password" id="repeat_password" required minlength="6" maxlength="30">
+                                                            <input type="password" equalTo="#password" id="repeat_password" required minlength="6" maxlength="30">
                                                         </div>
                                                         <!-- /.controls -->
                                                     </div>
@@ -213,63 +213,51 @@
 <script type="text/javascript" src="assets/libraries/jquery-validation/dist/localization/messages_zh.min.js"></script>
 <script>
     $( function() {
-      $('#login-form').validate({
-        submitHandler: function (form) {
-          $(form).submit();
-        }
-      });
+      $('#login-form').validate({});
       $('#register-form').validate({
-        submitHandler: function (form) {
-          $(form).submit();
+        rules: {
+          name: {
+            required: true,
+            remote: {
+              url: "/user/name/check",
+              type: "post",
+              data: {
+                name: function() {
+                  return $( "#name" ).val();
+                }
+              },
+              dataFilter: function(response) {
+                return JSON.parse(response).status === 200;
+              }
+            }
+          },
+          email: {
+            required: true,
+            email:true,
+            remote: {
+              url: "/user/email/check",
+              type: "post",
+              data: {
+                name: function() {
+                  return $( "#email" ).val();
+                }
+              },
+              dataFilter: function(response) {
+                return JSON.parse(response).status === 200;
+              }
+            }
+          }
+        },
+        messages: {
+          name: "此用户名已被注册!",
+          email: "此邮箱已被注册!"
         }
       });
         $( "#birthday" ).datepicker({
             language: 'zh-CN',
             format: 'yyyy-mm-dd',
             date: new Date(1995, 1, 1)
-        });
-        $('#name').blur(function () {
-          let name = $(this).val();
-          check(name, 'name', function (res) {
-            // 200 不重复
-            // 400 重复
-            if (res.status === 400) {
-              $('#duplicate-name-warring').css({display:'inline'})
-            } else {
-              $('#duplicate-name-warring').css({display:'none'})
-            }
-          }, function (failed) {
-            console.error(failed);
-          })
         })
-      $('#email').blur(function () {
-          let name = $(this).val();
-          check(name, 'email', function (res) {
-            // 200 不重复
-            // 400 重复
-            if (res.status === 400) {
-              $('#duplicate-email-warring').css({display:'inline'})
-            } else {
-              $('#duplicate-email-warring').css({display:'none'})
-            }
-          }, function (failed) {
-            console.error(failed);
-          })
-        })
-        let check = function (name,method, success,failed) {
-          $.ajax({
-            url: '/user/'+method+'/check',
-            type: 'post',
-            data: {name: name},
-            success: function (res) {
-              success(res);
-            },
-            error: function (err) {
-              failed(err);
-            }
-          })
-        }
-    } );
 
 </script>
 </body>
