@@ -40,6 +40,8 @@ public class UserController {
             int userId = (int) session.getAttribute(StatusUtil.USERIDKEY);
             if (userId != id) {
                 modelAndView.addObject("isSelf", "NO");
+            } else {
+                modelAndView.addObject("isSelf", "YES");
             }
         } else {
             modelAndView.addObject("isSelf", "NO");

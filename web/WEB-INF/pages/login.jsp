@@ -222,27 +222,27 @@
               url: "/user/name/check",
               type: "post",
               data: {
-                name: function() {
-                  return $( "#name" ).val();
+                name: function () {
+                  return $("#name").val();
                 }
               },
-              dataFilter: function(response) {
+              dataFilter: function (response) {
                 return JSON.parse(response).status === 200;
               }
             }
           },
           email: {
             required: true,
-            email:true,
+            email: true,
             remote: {
               url: "/user/email/check",
               type: "post",
               data: {
-                name: function() {
-                  return $( "#email" ).val();
+                name: function () {
+                  return $("#email").val();
                 }
               },
-              dataFilter: function(response) {
+              dataFilter: function (response) {
                 return JSON.parse(response).status === 200;
               }
             }
@@ -253,12 +253,12 @@
           email: "此邮箱已被注册!"
         }
       });
-        $( "#birthday" ).datepicker({
-            language: 'zh-CN',
-            format: 'yyyy-mm-dd',
-            date: new Date(1995, 1, 1)
-        })
-
+      $("#birthday").datepicker({
+        language: 'zh-CN',
+        format: 'yyyy-mm-dd',
+        date: new Date(1995, 1, 1)
+      })
+    })
 </script>
 </body>
 </html>

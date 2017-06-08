@@ -57,7 +57,14 @@
         <div id="wrapper-inner">
             <!-- BREADCRUMB -->
             <%@ include file="../header.jsp"%>
-            <c:set var="user" value="${sessionScope.get('LOGINUSER')}"/>
+            <c:choose>
+                <c:when test="${isSelf == 'NO'}" >
+                    <c:set var="user" value="${result.data}"/>
+                </c:when>
+                <c:otherwise>
+                    <c:set var="user" value="${sessionScope.get('LOGINUSER')}"/>
+                </c:otherwise>
+            </c:choose>
             <!-- CONTENT -->
             <div id="content"><div class="container">
                 <div id="main">
@@ -69,7 +76,9 @@
                                 <h2>${user.name}</h2>
                                 <p>等级：${user.grade}</p>
                                 <c:set var="simpleDateFormat" value='<%= new java.text.SimpleDateFormat("yyyy-MM-dd") %>'/>
-                                <p>注册时间：${simpleDateFormat.format(user.registTime)}</p>
+                                <c:if test="${user.registTime != null}">
+                                    <p>注册时间：${simpleDateFormat.format(user.registTime)}</p>
+                                </c:if>
                                 <ul class="nav nav-pills nav-stacked">
                                     <c:choose>
                                         <c:when test="${isSelf != 'NO'}">
@@ -168,7 +177,8 @@
     let requestData = function(data) {
       <c:if test="${isSelf == 'NO'}">
       if (data === undefined) {
-        data = {};      }
+        data = {};
+      }
       data.userId = ${user.userId};
       </c:if>
       $.ajax({

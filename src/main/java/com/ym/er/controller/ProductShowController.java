@@ -137,10 +137,10 @@ public class ProductShowController {
             @RequestParam(value = "page",required = false)Integer page) {
         if (userId == null && userId2 == null) {
             return Result.build(400, "错误请求");
-        } else if (userId == null) {
+        } else if (userId2 != null && !userId2.equals(userId)) {
             userId = userId2;
         }
-
+        System.out.println("list user id is : " + userId);
         if (page == null || page <= 0) {
             page = 1;
         }
@@ -162,7 +162,6 @@ public class ProductShowController {
             PageHelper.startPage(page,PAGESIZE);
             productRes = productService.selectProductByUserId(userId);
         }
-
         PageInfo pageInfo = new PageInfo(productRes.getData());
         return Result.build(productRes.getStatus(), productRes.getMsg(), pageInfo);
     }

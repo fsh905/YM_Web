@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="YM_Web:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/YM_Web_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/../YM_Web/out/artifacts/YM_Web_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="YM_Web/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -39,6 +39,8 @@
           <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.7" />
         </element>
       </element>
     </root>

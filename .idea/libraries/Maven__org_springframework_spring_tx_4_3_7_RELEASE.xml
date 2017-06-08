@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://F:/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://F:/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/.m2/repository/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
